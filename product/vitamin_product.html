@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitamins & Nutrition</title>
+    <link rel="stylesheet" href="product.css" />
+    <style></style>
+  </head>
+  <body>
+
+    <!-- navbar will be added -->
+  
+  <div id="Box"></div>
+  
+  <div id="displayData"></div>
+    <div id="home_bar">
+      <a href="../index.html" id="homebar_2"><div>Home</div></a>
+      <div id="slash"> / </div>
+      <div> Vitamins & Nutrition</div>
+    </div>
+    <!-- for sort  -->
+    <div id="category_name">
+      <h1>MULTIVITAMINS FOR MEN (20)</h1>
+    </div>
+    <div id="ra-one">
+      <div id="filter">
+        <h3 id="filter1">FILTERS</h3>
+      </div>
+      <div id="sortPrice1">
+        <select id="sortPrice" onchange="handlePriceSort()">
+          <option>SORT BY Popular</option>
+          <option value="popular">Popular</option>
+          <option value="HTL">Price: High To Low</option>
+          <option value="LTH">Price: Low To High</option>
+        </select>
+      </div>
+    </div>
+    <div id="bag">
+    <div id = "ra">
+      <select id="filterVenue" onChange="handleFilter()" >
+        <option >Category</option>
+        <!-- <option value="t-shirts">T-Shirt</option>
+        <option value="boxer">Boxer</option>
+        <option value="Vest">Vest</option> -->       
+      </select>
+      <select id="Venue" >
+        <option value="none">Sizes</option>
+      </select>
+      <select id="Va" >
+        <option value="none">Brand</option>
+      </select>
+      <select id="Vb" >
+        <option value="none">Color</option>
+      </select>
+      <select id="Vc" >
+        <option value="none">Design</option>
+      </select>
+      <select id="Vd" >
+        <option value="none">Fit</option>
+       </select> 
+       <select id="Vf" >
+        <option value="none">Sleeve</option>
+       </select> 
+       <select id="Vg" >
+        <option value="none">Neck</option>
+       </select> 
+       <select id="Vh" >
+        <option value="none">Ratings</option>
+       </select> 
+       <select id="Vi" >
+        <option value="none">Discount</option>
+       </select>
+    </div>
+    <div id="container"></div>
+  </div>
+    <!--    
+          Footer will be added
+     -->
+  </body> 
+</html> 
+<script src="vitamin_product.js"></script>
+
