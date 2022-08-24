@@ -5,8 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #navbar{
+            height: 40px;
+            border: 1px solid black;
+        }
+        #ext{
+            width:68%;
+            height: auto;
+            margin: auto;
+            border: 1px solid red;
+            display: flex;
+        }
+        #show{
+            width:60%;
+            border: 1px solid green;
+        }
+        #amount{
+            width:40%;
+          
+            border: 1px solid green;
+        }
+        #plan{
+            border: 1px solid grey;
+        }
+        #plan>img{
+          width: 80px;
+          height: 30px;
+          padding: 10px;
+        }
+        #plan>h3{
+            color: rgb(76, 184, 166); margin-top: -10px;
+            margin-left: 10px;
+        }
+        #plan>h5{
+            margin-top: -10px;
+            margin-left: 10px;
+        }
+        #plan>p{
+            font-size: 14px;margin-top: -15px;
+            margin-left: 10px;
+        }
+        #plan>button{
+            width: 160px;
+            padding: 5px;
+            margin-left: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        #check{
+            margin-top: 30px;
+            border: 1px solid grey;
+        }
+        #tick{
+            display: inline;
+            margin-left: 10px;
+        }
+        /* #same{
+            
+            margin-top: -10px;
+            margin-left: 10px;
+           display: flex;
+        } */
+        #amount{
+            margin-top: 20px;
+            border: 1px solid grey;
+        }
+
+        #amount>div>div{
+            display: flex;
+            justify-content: space-between;
+        }
+        #amount>div>div>p{
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        #location{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #checkout{
+            width: 100%;
+            height: 40px;
+            color: white;
+            background-color: red;
+            border: none;
+            cursor: pointer;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>hello friends</h1>
+    <div id="navbar"></div>
+    <div id="ext">
+     <div id="show">
+        <div id="cart">
+            <h3>Items NOT Requiring Prescription</h3>
+        </div>
+        <div id="adv">
+            <h3>Deals From Himalaya Baby</h3>
+        </div>
+     </div>
+     <div id="amount">
+        <div id="plan">
+            <img src="https://onemg.gumlet.io/image/upload/v1625657833/ekjkxafxcqqg0oinr3fu.png"/>
+            <h3>You can save extra ₹11 on this order</h3>
+            <h5>Become a member</h5>
+            <p>Care plan membership ₹165 ₹549 / 3 months</p>
+            <button style="border: 1px solid red;color: red;background-color: white;">Know More</button>
+            <button style="border:none;color: white;background-color: red;">Add to cart</button>
+        </div>
+        <div id="check">
+            <p style="font-size: 18px;margin-left: 10px;">Check the health of your vital organs</p>
+        <input id="tick" type="checkbox"/><p style="font-size: 15px; display: inline;">Book Good Health Silver Package for just ₹649</p>
+          
+           <p style="font-size: 13px;margin-left: 30px;margin-right: 70px;">Get the tests done easily from your home. This package will help you in identifying potential disorders and deficiencies at an early stage.</p>
+           <p style="color:green;font-size: 14px;margin-left: 30px">Pay later on home sample collection</p>
+        </div>
+        <div id="amount">
+            <div>
+                <div><p>Item Total(MRP)</p></div>
+                <div id="p1"></div>
+            </div>
+            <div style="border-bottom: 1px solid grey;">
+                <div><p>Price Discount</p></div>
+                <div id="p2"></div>
+            </div>
+            <div style="border-bottom: 1px solid grey;">
+                <div><p>Shipping Fee</p></div>
+                <div id="p3"></div>
+            </div>
+            <div>
+                <div><h3 style="margin-Left:10px">To be paid</h3></div>
+                <div id="p4"></div>
+            </div>
+            <div style="background-color: rgb(155, 208, 222);">
+                <div><p>Total Saving</p></div>
+                <div id="p5"></div>
+            </div>
+        </div>
+        <div id="location">
+            <div><p>Your delivery location</p></div>
+            <div><p style="color:red ;">New Delhi</p></div>
+        </div>
+        <button id="checkout">CHECKOUT</button>
+     </div>
+    </div>
 </body>
 </html>
+<script>
+
+</script>
