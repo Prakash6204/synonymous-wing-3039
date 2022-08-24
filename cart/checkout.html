@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    
+     #box{
+        width: 500px;
+        height: 550px;
+        border: 1px solid gray;
+        margin-left: 200px;
+        margin-top: 50px;
+     }
+     input{
+          width: 460px;
+          height:25px;
+          margin-top: 15px;
+          border-radius: 3px;
+          border: 1px solid gray;
+          margin-left: 15px;
+       }
+       #tick{
+        display: flex;
+        justify-content: space-around;
+     }
+     h4{
+        display: inline;
+        color: rgba(61, 58, 58, 0.367);
+     }
+    button{
+     
+       width: 100px;
+       height: 35px;
+       margin-right: 20px;
+       border-radius: 5px;
+       cursor: pointer;
+     }
+     #niche{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        /* border: 1px solid gray; */
+     }
+     #bit{
+        display: flex;
+      
+       
+     }
+     
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="box">
+        <input style="height: 60px;" id="flat" type="" placeholder="Flat Number,Building Name,Street/Locality" />
+        <br/>
+        <input id="land" type="text" placeholder="Landmark(optional)" />
+        <br/>
+        <input id="pin" type="number" placeholder="Pincode" />
+        <br/>
+        <input id="local" type="text" placeholder="Locality" />
+        <br/>
+        <input id="city" type="text" placeholder="City" />
+        <br/>
+        <input id="state" type="text" placeholder="State" />
+        <br/>
+        <input id="name" type="text" placeholder="Customer Name" />
+        <br/>
+        <input id="mob" type="number" placeholder="10 Digit Mobile Number" />
+        <br/>
+        <div id="tick">
+           <div style="display: inline;"><input type="checkbox"><h4>HOME</h4></div>
+            
+            
+            <!-- <div><input type="checkbox" /><h4>OFFICE</h4></div>
+            <div><input type="checkbox" /><h4>OTHER</h4></div>  -->
+           
+            
+            
+        </div>
+        <div id="niche">
+            <div></div>
+            <div id="bit"> 
+                <button onclick="cancel()" style="color: red;border:none; background-color: white;">CANCEL</button>
+                <button onclick="save()" style="color: white;border:none; background-color: red;">SAVE</button>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
+<script>
+
+function cancel()
+{
+   window.location.href="./index.html"
+}
+
+function save()
+{
+   let flat=document.getElementById("flat").value;
+   let land=document.getElementById("land").value;
+   let pin=document.getElementById("pin").value;
+   let local=document.getElementById("local").value;
+   let city=document.getElementById("city").value;
+   let state=document.getElementById("state").value;
+   let name=document.getElementById("name").value;
+   let mob=document.getElementById("mob").value;
+   // let =document.getElementById("").value;
+   // let =document.getElementById("").value;
+   let array=JSON.parse(localStorage.getItem("Detail"))||[];
+   class Detail
+   {
+      constructor(f,l,p,lo,c,s,n,m)
+      {
+         this.flat=f;
+         this.land=l;
+         this.pin=p;
+         this.local=lo;
+         this.city=c;
+         this.state=s;
+         this.name=n;
+         this.mob=m;
+
+
+      }
+   }
+
+   let obj=new Detail(flat,land,pin,local,city,state,name,mob)
+   console.log(obj)
+   array.push(obj)
+   localStorage.setItem("Detail",JSON.stringify(array))
+   window.location.reload()
+
+}
+
+
+</script>
