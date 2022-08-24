@@ -5,8 +5,201 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        /* #slidbar{
+            display: flex;
+            width: auto;
+            height: 160px;
+            
+            border: 1px solid black;
+        } */
+
+        /* body=slidbar/right==slider/slides=slides */
+
+        #slidbar{
+            margin: 0;
+            padding: 0;
+            width: auto;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .right{
+            width: 70%;
+            height: 160px;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+        .slides {
+            width: auto;
+            height: 160px;
+            display: flex;
+        }
+        .slides input{
+            display: none;
+        }
+        .slide{
+            width: 20%;
+            transition: 2s;
+
+        }
+        .slide img{
+              width: auto;
+              height: 160px;
+        }
+        
+
+
+
+        .left{
+            width: 30%;
+            height: 160px;
+            border: 1px solid  yellow;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+        }
+        #main{
+            display: block;
+            width: auto;
+            height: 100%;
+            background-color: rgb(228, 227, 227);
+        }
+        #main img{
+            width: 90%;
+            height: 130px;
+            margin-left: 5%;
+            padding: 1% 0% 1%;
+        }
+        #main h1{
+            margin-left: 5%;
+            margin-top: -5px;
+        }
+         .catagory{
+            width: auto;
+            display: flex;
+            height: 200px;
+            background-color: white;
+            margin-top: 30px;
+         }
+         .catagory  .imgbox{
+            width: 130px;
+            height: 150px;
+            background-color: aqua;
+            margin-right: 10px;
+            margin: auto;
+            border: 1px solid red;
+            border-radius:5px;
+         }
+
+         
+       
+        
+     
+    </style>
 </head>
 <body>
+    <div><p>Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</p></div>
     
+    <div id="slidbar">
+        <div class="right">
+            <div class="slides">
+                <input type="radio" name="" id="rd1">
+                <input type="radio" name="" id="rd2">
+                <input type="radio" name="" id="rd3">
+                <input type="radio" name="" id="rd4">
+                <input type="radio" name="" id="rd5">
+                <input type="radio" name="" id="rd6">
+                <input type="radio" name="" id="rd7">
+                <input type="radio" name="" id="rd8">
+                <input type="radio" name="" id="rd9">
+                <input type="radio" name="" id="rd10">
+                <input type="radio" name="" id="rd11">
+                <div class="slide first">
+                    <img src="https://onemg.gumlet.io/d46e2c6b-983c-464b-a792-cffd78ac48df_1660808836.png?w=899&h=200&format=auto" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/edq9awox0cpywojoubhb.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/rohm7mk20fc4mairgjg0.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/a7v2ipno4azmdu6cnjuu.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/kcdcsb5yrkpxok5bpm8y.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="" alt="">
+                </div>
+                <div class="slide">
+                    <img src="" alt="">
+                </div>
+                <div class="slide">
+                    <img src="" alt="">
+                </div>
+                <div class="slide">
+                    <img src="" alt="">
+                </div>
+                <!-- automatic navigatio div start bilow -->
+                <div class="navigaton-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                   
+                </div>  
+            </div>
+                   <div class="navigataion-manual">
+                    <label for="redio1" class="manual-btn"></label>
+                    <label for="redio2" class="manual-btn"></label>
+                    <label for="redio3" class="manual-btn"></label>
+                    <label for="redio4" class="manual-btn"></label>
+                    <label for="redio5 " class="manual-btn"></label>
+                   </div>
+        </div>
+        <div class="left"><img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/rohm7mk20fc4mairgjg0.png" alt=""></div>
+    </div>
+    <div id="main">
+
+        <img src="https://res.cloudinary.com/du8msdgbj/image/upload/v1647251796/ueyxzzku83yuvpqxyrwe.png" alt="">
+        <h1>Featured brands</h1>
+    
+         <div class="catagory">
+            <div class="imgbox">ksjdh</div>
+            <div class="imgbox">kjsdhk</div>
+            <div class="imgbox">ksjdh</div>
+            <div class="imgbox">hsdgj</div>
+            <div class="imgbox">hjgsdj</div>
+            <div class="imgbox">jhdgsfj</div>
+            <div class="imgbox">jhdg</div>
+            <div class="imgbox">jhdfsgf</div>
+            <div class="imgbox">hjdsf</div>
+         </div>
+
+
+         <h1>Featured brands</h1>
+         <div class="catagory"></div>
+         <h1>Full body health checkups</h1>
+         <div class="catagory"></div>
+         <h1>Popular categories</h1>
+         <div class="catagory"></div>
+         <h1>Top Sellers From Sun Pharma</h1>
+         <div class="catagory"></div>
+         <h1>Multivitamins | Supplement of the week</h1>
+         <div class="catagory"></div>
+        
+        
+        
+
+
+
+    </div>
 </body>
 </html>
