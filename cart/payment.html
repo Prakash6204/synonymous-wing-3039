@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment_page</title>
+    <!-- <link rel="stylesheet" href="./styles/payment.css"> -->
+    <style>
+        body{
+    margin: 0%;
+    background: whitesmoke;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+/* header */
+#payment_header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+   padding-left: 2%;
+   padding-right: 2%;
+   height: 55px;
+}
+#mg_home{
+   cursor: pointer;
+}
+#need_help{
+   cursor: pointer;
+}
+#payment_header>div>img:nth-child(2){
+   margin-left: 30px;
+   height: 60px;
+}
+/* footer */
+#payment_footer{
+ display: flex;
+ width: 80%;
+ margin: auto;
+}
+#payment_footer>div{
+ border-top: 1px solid darkgray;
+ margin-right: 1%;
+}
+#payment_footer>div:nth-child(2){
+   width: 30%;
+}
+#payment_footer>div:nth-child(1){
+   width: 60%;
+}
+#payment_footer>div>p{
+   font-size: 11px;
+   color: lightslategray;
+}
+#payment_footer>div>p>span{
+   color: lightsalmon;
+}
+
+/* payment_main */
+#payment_main{
+   display: flex;
+   width: 80%;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+#payment_options{
+   background: oldlace;
+   width: 20%;
+   padding: 3%;
+}
+#payment_options>div{
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#payment_options>div>p{
+    margin-left: 5%;
+}
+
+
+#card_details{
+    width: 30%;
+    padding: 2%;
+    background: white;
+}
+#card_details>div{
+    margin-bottom: 20px;
+}
+#card_details>div>p{
+    font-size: 10px;
+    color: darkgray;
+}
+#card_details>div>input{
+    border: none;
+    border-bottom: 2px solid darkgray;
+    outline:none;
+    width: 95%;
+}
+#date_code{
+    display: flex;
+}
+#date_code>div{
+    width: 50%;
+}
+#date_code>div>p{
+    font-size: 10px;
+    color: darkgray;
+}
+#date_code>div>input{
+    border: none;
+    border-bottom: 2px solid darkgray;
+    outline:none;
+}
+#checkbox{
+width: 25px !important;
+height: 25px;
+}
+#card_payment_btn{
+   margin-top: 20px;
+ margin-left: 60%;
+ margin-bottom: 80px;
+ padding: 10px 8px 10px 8px ;
+ color: white;
+ background: #ff6f61;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+#card_brands{
+   text-align: center;
+}
+#card_brands>p{
+   color: darkslategray !important;
+}
+#card_brands>div{
+   display: flex;
+   justify-content: center;
+}
+#card_brands>div>img{
+   width: 40px;
+   height: 25px;
+   margin-left: 5px;
+}
+
+
+#price_summary{
+   width: 30%;
+   margin-left: 2%;
+}
+#price_summary>div{
+   margin-bottom: 20px;
+   padding: 2%;
+   background: white;
+}
+#show_offers_first{
+   font-size: 14px;
+}
+#show_offers_first>img{
+   width: 18px;
+   height: 18px;
+}
+#show_offers{
+   text-align: right;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+#mg_cash>div{
+  display: flex;
+  justify-content: space-between;
+}
+#mg_cash>div>input{
+   width: 30px;
+   height: 25px;
+   margin-top: 12px;
+}
+#mg_cash>div>div>p:nth-child(1){
+   font-size: 15px;
+}
+#mg_cash>div>div>p:nth-child(2){
+   font-size: 11px;
+   color: dimgray;
+}
+#mg_cash>div>p:nth-child(1){
+ font-size:12px ;
+}
+#mg_cash>div>p:nth-child(2){
+ font-size:12px ;
+ color: #ff6f61;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+
+#mrp_summary>div{
+   display: flex;
+   justify-content: space-between;
+   font-size: 12px;
+   color: dimgray;
+}
+#mrp_summary>div:nth-child(4){
+   color:#ff6f61 ;
+   cursor: pointer;
+}
+#mrp_summary>div:nth-child(6){
+   color: darkslategray;
+   font-size: 15px;
+   font-weight: bold;
+}
+#mrp_summary>div:nth-child(7){
+   background: honeydew;
+}
+#total_savings_amount{
+   color: green;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+
+#main_card_payment_btn{
+   width: 100%;
+   color: white;
+   background: #ff6f61;
+   border-radius: 5px;
+   border: none;
+   height: 40px;
+   cursor: pointer;
+}
+    </style>
+</head>
+<body>
+
+    <div id="payment_header">
+           <div>
+             <img id="mg_home" src="https://www.1mg.com/images/tata_1mg_logo.svg"/>
+             <!-- <img src="./images/payment_page_img.png" alt=""> -->
+           </div>
+        <div id="need_help">Need Help?</div>
+    </div>
+
+
+    <div id="payment_main">
+
+       <div id="payment_options">
+          <div>
+              <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172217/marketing/vvew3rcvwfjrhknifj1z.png"/>
+              <p>WALLETS</p>
+          </div>
+          <div>
+            <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1581576219/marketing/p0w0w4crcgcthkom8j23.png"/>
+            <p>UPI</p>
+          </div>
+          <div>
+            <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172186/marketing/p45zk16fua8dmxany3up.png"/>
+            <p>CARDS</p>
+          </div>
+          <div>
+            <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172229/marketing/bsnk5fvtd4b6xffsvjdm.png"/>
+            <p>NET BANKING</p>
+          </div>
+          <div>
+            <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172202/marketing/pyzcsicqsnwawi4yrpo7.png"/>
+            <p>PAY ON DELIVERY</p>
+          </div>
+       </div>
+
+
+       <div id="card_details">
+
+         <div>
+             <h5>Credit & Debit Cards</h5>
+             <p>Add New Card For Payment</p>
+         </div>
+
+         <div>
+             <p>Card Number</p>
+             <input id="card_num" type="text" maxlength="16" placeholder="xxxx xxxx xxxx xxxx">
+         </div>
+
+         <div id="date_code">
+            <div>
+                <p>Expiry Date (MM/YY)</p>
+                <input id="exp_date" type="month" placeholder=" MM / YY">
+            </div>
+
+            <div>
+                <p>Security code</p>
+                <input id="cvv" type="text" maxlength="3" placeholder="CVV">
+            </div>
+         </div>
+
+         <div>
+           <input id="card_name" type="text" placeholder="Name on card">
+         </div>
+
+         <div>
+            <input id="checkbox" type="checkbox">
+            <p>Your card details will be saved securely for future transactions, based on the industry standards.</p>
+         </div>
+
+         <div>
+            <button id="card_payment_btn">MAKE PAYMENT</button>
+         </div>
+
+         <div id="card_brands">
+           <p>We support domestic credit and debit cards of following brands</p>
+           <div>
+               <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530098898/marketing/rv6lj5fubobesvsomlzr.png" alt="">
+               <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1532957968/marketing/j9kc0uquxwrcbyoeomfw.png" alt="">
+               <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530098792/marketing/vujtyvkwxchd16egv0wt.png" alt="">
+               <img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530098811/marketing/szfylmvspyj5ccvhesnp.png" alt="">
+           </div>
+         </div>
+
+       </div>
+
+
+       <div id="price_summary">
+
+           <div>
+             <p id="show_offers_first"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/v1609235175/rwfhtgwtk8zmnbwdvfme.png" alt="">Pay with Paytm wallet on Tata 1mg for ₹999 or more and get 4000 cashback points.</p>
+             <p id="show_offers">SHOW ALL PAYMENT OFFERS <img  src="https://www.1mg.com/images/chevron_right_18.svg" alt=""></p>
+           </div>
+
+
+           <div id="mg_cash">
+             <div>
+                 <input type="checkbox" />
+                 <div>
+                     <p>Pay using 1mgCash</p>
+                     <p>₹ 75 of your order amount is eligible for payment through 1mgCash</p>
+                 </div>
+             </div>
+
+             <div>
+                 <p>Available balance: ₹75.0</p>
+                 <p>How 1mgCash works?</p>
+             </div>
+           </div>
+
+           <!-- dynamics part -->
+           <div id="mrp_summary">
+               <div>
+                   <p>Item Total(MRP)</p>
+                   <p id="total_mrp_item"></p>
+               </div>
+
+               <div>
+                <p>Price Discount</p>
+                <p id="discount_price">-</p>
+               </div>
+
+               <div>
+                <p>Shipping Fee</p>
+                <p id="shipping_fee">₹0</p>
+               </div>
+
+               <div>
+                   <p>Want Free Shipping?</p>
+               </div>
+
+               <div>
+                <p>Safety Handling Feeⓘ</p>
+                <p>₹10</p>
+               </div>
+
+               <div>
+                <p>To be paid</p>
+                <p id="to_be_paid"></p>
+               </div>
+
+               <div>
+                <p>Total Savings</p>
+                <p id="total_savings_amount"></p>
+               </div>
+           </div>
+
+           <button id="main_card_payment_btn">MAKE PAYMENT</button>
+       </div>
+
+    </div>
+
+
+
+    <div id="payment_footer">
+        <div>
+            <p>1mg is a technology platform to facilitate transaction of business. The products and services are offered for sale by the sellers. The user authorizes the delivery personel to be his agent for delivery of the goods. For details read <span>terms and conditions.</span></p>
+        </div>
+        <div>
+          <p>*1mgCash will be credited 7 days after your complete order is delivered in case of Products and in case of Lab Services 1mgCash will be credited within 24 hours from the time of generation of test report. 1mgCash will not be credited in case a return request is initiated for the order.</p> 
+          <p>**Coupon Discount value may change if the total order value changes.</p> 
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+<script>
+   var array=JSON.parse(localStorage.getItem("dataone"))
+console.log(array)
+
+//     let empty_arr = [];
+// localStorage.setItem("cart_data", JSON.stringify(empty_arr));
+// let b = JSON.parse(localStorage.getItem("price_data"));
+// console.log(b);
+
+let append=(array)=>{
+   let sum=0;
+let sum1=0;
+let sum2=0;
+let sum3=0;
+   array.forEach((el)=>{
+      //let tbp = b[1] + 00;
+      sum+=el.price;
+      sum2+=el.price2;
+      sum3+=(el.price2-el.price)
+      console.log(sum,sum1,sum2)
+document.getElementById("total_mrp_item").innerText = `₹ ${sum2}`;
+document.getElementById("discount_price").innerText = `-₹ ${sum3}`;
+document.getElementById("to_be_paid").innerText = `₹ ${sum}`;
+document.getElementById("total_savings_amount").innerText = `₹ ${
+ sum3}`;
+   })
+}
+
+append(array)
+
+
+
+document.querySelector("#card_payment_btn").addEventListener("click", () => {
+  let flag = true;
+  let card_number = document.querySelector("#card_num").value;
+  let exp_date = document.querySelector("#exp_date").value;
+  let cvv_number = document.querySelector("#cvv").value;
+  let card_name = document.querySelector("#card_name").value;
+  if (card_number.length < 16) {
+    alert("enter valid card number");
+    flag = false;
+  }
+  if (exp_date == "") {
+    alert("enter valid expiry date");
+    flag = false;
+  }
+  if (cvv_number.length < 3) {
+    alert("enter valid CVV number");
+    flag = false;
+  }
+  if (card_name == "") {
+    alert("enter valid name");
+    flag = false;
+  }
+  if (flag == true) {
+    alert("payment Successfull");
+    window.location.href = "thank_you.html";
+  }
+});
+
+document
+  .querySelector("#main_card_payment_btn")
+  .addEventListener("click", () => {
+    let flag = true;
+    let card_number = document.querySelector("#card_num").value;
+    let exp_date = document.querySelector("#exp_date").value;
+    let cvv_number = document.querySelector("#cvv").value;
+    let card_name = document.querySelector("#card_name").value;
+    if (card_number.length < 16) {
+      alert("enter valid card number");
+      flag = false;
+    }
+    if (exp_date == "") {
+      alert("enter valid expiry date");
+      flag = false;
+    }
+    if (cvv_number.length < 3) {
+      alert("enter valid CVV number");
+      flag = false;
+    }
+    if (card_name == "") {
+      alert("enter valid name");
+      flag = false;
+    }
+    if (flag == true) {
+      alert("payment Successfull");
+      window.location.href = "thank_you.html";
+    }
+  });
+
+document.querySelector("#mg_home").addEventListener("click", () => {
+  window.location.href = "index.html";
+});
+document.querySelector("#need_help").addEventListener("click", () => {
+  window.location.href = "NeedHelp.html";
+});
+</script>
