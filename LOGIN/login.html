@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | 1mg.com</title>
+    <link rel="stylesheet" href="./style/login.css" />
+    
+  </head>
+  <body>
+    <div id="container">
+      <div id="navbar"></div>
+      <div id="container_1">
+        <div id="slideshow_container">
+          <div class="mySlides">
+            <img
+              src="https://www.1mg.com/images/login-signup/Your-Go-To-Health-App.png"
+              alt=""
+            />
+            <div class="text">
+              <h2>Make Healthcare Simpler</h2>
+              <p>
+                Get medicine information, order medicines, book lab<br />tests
+                and consult doctors online from the comfort of<br />your home.
+              </p>
+            </div>
+          </div>
+          <div class="mySlides">
+            <img
+              src="https://www.1mg.com/images/login-signup/Know-Your-Medicines.png"
+              alt=""
+            />
+            <div class="text">
+              <h2>Know Your Medicines</h2>
+              <p>
+                View medicine information like usage, side effects and <br />
+                cheaper substitutes before you take them.
+              </p>
+            </div>
+          </div>
+          <div class="mySlides">
+            <img
+              src="https://www.1mg.com/images/login-signup/Home-Delivery-of-Medicines.png"
+              alt=""
+            />
+            <div class="text">
+              <h2>Medicines, Home Delivered</h2>
+              <p>
+                Order any medicine or health product and we'll deliver <br />
+                it for free. Enjoy discounts on everything.
+              </p>
+            </div>
+          </div>
+          <div class="mySlides">
+            <img
+              src="https://www.1mg.com/images/login-signup/Lab-Tests-at-Home.png"
+              alt=""
+            />
+            <div class="text">
+              <h2>Lab Tests at Home</h2>
+              <p>
+                Book any test from any lab. We'll collect the sample <br />and
+                send the reports. Save up to 80% every time.
+              </p>
+            </div>
+          </div>
+          <div class="mySlides">
+            <img
+              src="https://www.1mg.com/images/login-signup/Health-Related-Queries.png"
+              alt=""
+            />
+            <div class="text">
+              <h2>Health Related Queries?</h2>
+              <p>
+                Consult our certified doctors from anywhere, anytime,<br />and
+                for free. We guarantee your privacy.
+              </p>
+            </div>
+          </div>
+          <div class="dot_container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+        </div>
+        <div id="account"> 
+          <h1>Sign In</h1>
+        <form>
+           
+            <input type="text" placeholder="Enter Mobile Number" id="mobile">
+            <input type="text" placeholder="Enter password" id="password">
+            <button id="login" onclick="login(event)">Login</button>
+          </form>
+          
+          <div>
+            <div>
+                <p>
+                  New on 1mg?
+                  <span class="a_orange" id="signup_span">Sign Up</span>
+                </p>
+                <p>
+                  Have a corporate account?
+                  <a href="coporatesignup.html" class="a_orange">Click Here</a>
+                </p>
+            <p id="terms">
+              By logging up, you agree to our
+              <a href="">Terms and Conditions</a> &
+              <a href="">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="NeedHelp.html" class="a_orange"
+                  >Need help? Get In Touch</a
+                >
+              </p>
+          </div>
+        </div>
+        
+        <script src="./script/signin.js"></script>
