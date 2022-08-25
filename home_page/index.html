@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
     <style>
 
         /* #slidbar{
@@ -23,17 +23,30 @@
             width: auto;
             height: 160px;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            border:3px red;
+            
             
         }
-        .right{
+        .slider{
+            margin: 0;
+            padding: 0;
             width: 70%;
             height: 160px;
-            border: 1px solid red;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .slides {
+
+
+
+
+
+
+
+
+
+        
+        /* .slides {
             width: auto;
             height: 160px;
             display: flex;
@@ -44,13 +57,61 @@
         .slide{
             width: 20%;
             transition: 2s;
-
         }
         .slide img{
               width: auto;
-              height: 160px;
+              height: 180px;
         }
-        
+        .navigataion-manual{
+            position: absolute;
+            width:auto;
+            margin-left:30% ;
+            margin-bottom: -10px;
+            display: flex;
+            justify-content: center;
+        }
+        .manual-btn{
+            border: 2px solid gray;
+            padding: 3px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .manual-btn:not(:last-child){
+            margin-right: 4px;
+        }
+        .manual-btn:hover{
+            background-color:gray;
+        }
+         #rad1:checked~.first{
+            margin-left:0 ;
+
+         }
+         #rad2:checked~.first{
+            margin-left:-20%;
+
+         }
+         #rad3:checked~.first{
+            margin-left:-40% ;
+
+         }
+         #rad4:checked~.first{
+            margin-left:-60% ;
+
+         }
+         #rad5:checked~.first{
+            margin-left:-80%;
+
+         } */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -106,20 +167,20 @@
     <div><p>Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</p></div>
     
     <div id="slidbar">
-        <div class="right">
+        <div class="slider">
             <div class="slides">
                 <input type="radio" name="" id="rd1">
                 <input type="radio" name="" id="rd2">
                 <input type="radio" name="" id="rd3">
                 <input type="radio" name="" id="rd4">
                 <input type="radio" name="" id="rd5">
-                <input type="radio" name="" id="rd6">
+                <!-- <input type="radio" name="" id="rd6">
                 <input type="radio" name="" id="rd7">
                 <input type="radio" name="" id="rd8">
                 <input type="radio" name="" id="rd9">
                 <input type="radio" name="" id="rd10">
-                <input type="radio" name="" id="rd11">
-                <div class="slide first">
+                <input type="radio" name="" id="rd11"> -->
+                <!-- <div class="slide first">
                     <img src="https://onemg.gumlet.io/d46e2c6b-983c-464b-a792-cffd78ac48df_1660808836.png?w=899&h=200&format=auto" alt="">
                 </div>
                 <div class="slide">
@@ -134,18 +195,7 @@
                 <div class="slide">
                     <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/kcdcsb5yrkpxok5bpm8y.png" alt="">
                 </div>
-                <div class="slide">
-                    <img src="" alt="">
-                </div>
-                <div class="slide">
-                    <img src="" alt="">
-                </div>
-                <div class="slide">
-                    <img src="" alt="">
-                </div>
-                <div class="slide">
-                    <img src="" alt="">
-                </div>
+               -->
                 <!-- automatic navigatio div start bilow -->
                 <div class="navigaton-auto">
                     <div class="auto-btn1"></div>
@@ -164,23 +214,23 @@
                     <label for="redio5 " class="manual-btn"></label>
                    </div>
         </div>
-        <div class="left"><img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/rohm7mk20fc4mairgjg0.png" alt=""></div>
+        <!-- <div class="left"><img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/rohm7mk20fc4mairgjg0.png" alt=""></div> -->
     </div>
-    <div id="main">
+    <!-- <div id="main">
 
         <img src="https://res.cloudinary.com/du8msdgbj/image/upload/v1647251796/ueyxzzku83yuvpqxyrwe.png" alt="">
         <h1>Featured brands</h1>
     
          <div class="catagory">
-            <div class="imgbox">ksjdh</div>
-            <div class="imgbox">kjsdhk</div>
-            <div class="imgbox">ksjdh</div>
-            <div class="imgbox">hsdgj</div>
-            <div class="imgbox">hjgsdj</div>
-            <div class="imgbox">jhdgsfj</div>
-            <div class="imgbox">jhdg</div>
-            <div class="imgbox">jhdfsgf</div>
-            <div class="imgbox">hjdsf</div>
+            <div class="imgbox">image1</div>
+            <div class="imgbox">image2</div>
+            <div class="imgbox">image3</div>
+            <div class="imgbox">image4</div>
+            <div class="imgbox">image5</div>
+            <div class="imgbox">image6</div>
+            <div class="imgbox">image7</div>
+            <div class="imgbox">image8</div>
+            <div class="imgbox">image9</div>
          </div>
 
 
@@ -200,6 +250,6 @@
 
 
 
-    </div>
+    </div> -->
 </body>
 </html>
