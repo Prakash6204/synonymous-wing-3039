@@ -77,6 +77,7 @@
 let form = document.querySelector(".form");
 // let login = document.querySelector("#login");
     let userData = JSON.parse(localStorage.getItem("userData")) || [];
+<<<<<<< HEAD
     console.log(userData)
        login.addEventListener("click",fun)
 
@@ -109,3 +110,27 @@ let form = document.querySelector(".form");
     //         localStorage.setItem("Name_on_Dashboard", element.name)    
     //     });
     // }
+=======
+    console.log( userData)
+
+    login.addEventListener("click",fun)
+    function fun(event){
+
+    
+        event.preventDefault();
+        console.log("hello")
+        
+            email=form.mobile.value,
+            password=form.password.value,
+      
+            userData.forEach((element)=>{
+              if(element.email==email&&element.password==password)
+              {
+                swal("Good job!", "You clicked the button!", "success");
+              }
+             
+            
+            });
+          }
+            
+>>>>>>> f9a393c667acc1bee0d0f477274a27c821845a7e
