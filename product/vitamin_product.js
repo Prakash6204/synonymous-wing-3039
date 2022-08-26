@@ -292,11 +292,13 @@ var fashionData = [
       rating_number:"4.3",
       star:"★",
       rating:"138 ratings",
+      brand: "Organic India Ashwagandha Veg Capsule",
+      name: "bottle of 180 vegicaps",
       rupees: "₹",
-      price: 84,
+      price: 515,
       rupees2: "₹",
-      price2: 98,
-      offer: "14% OFF"
+      price2: 585,
+      offer: "12% OFF"
     },
   
   

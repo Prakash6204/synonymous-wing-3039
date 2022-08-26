@@ -316,6 +316,7 @@ var fashionData = [
       displayData(fashionData)
     }
     if(selected=="relevance"){
+    if(selected=="popular"){
       fashionData.sort(function(a){
         if(a.price>300)
         {
@@ -346,6 +347,8 @@ var fashionData = [
       displayData(fashionData)
     }
   }
+  }
+  
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
   
   displayData(fashionData)
@@ -458,6 +461,7 @@ var fashionData = [
       div111.append(div11,div55);
       
       box.append(fashion_avatar, fashion_brand, fashion_name,divrating, div6,div111);
+      box.append(fashion_avatar, fashion_brand, fashion_name, div6,div111);
       container.append(box);
   
     });
@@ -465,11 +469,13 @@ var fashionData = [
   function addButtonPress(elem) {
     document.querySelector("#container").innerHTML = ""
     let s = JSON.parse(localStorage.getItem("allData")) || [];
+    let s = JSON.parse(localStorage.getItem("dataone")) || [];
     // var product = [];
     // fashionArr.push(elem);
     // product.push(elem)
     s.push(elem);
     localStorage.setItem("allData", JSON.stringify(s));
+    localStorage.setItem("dataone", JSON.stringify(s));
     console.log(s)
     window.location.reload();
   }
@@ -477,6 +483,7 @@ var fashionData = [
   function press(elem) {
     document.querySelector("#container").innerHTML = ""
     let s = JSON.parse(localStorage.getItem("allData")) || [];
+    let s = JSON.parse(localStorage.getItem("dataone")) || [];
     // var product = [];
     // fashionArr.push(elem);
     // product.push(elem)
@@ -484,6 +491,9 @@ var fashionData = [
     localStorage.setItem("thisProduct", JSON.stringify(elem));
     localStorage.setItem("allData", JSON.stringify(s));
     window.location.href = "../cart/cart.html";
+    localStorage.setItem("dataone", JSON.stringify(s));
+    console.log(s)
+    window.location.href = "../Product_display&cart/index.html";
   }
   // let userdata=JSON.parse(localStorage.getItem('user'));
   // // console.log(userdata.username);
