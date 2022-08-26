@@ -109,7 +109,8 @@
     
   }
   #mobile,
-  #password{
+  #password
+  {
     width: 100%;
     box-sizing: border-box;
     border: none;
@@ -117,6 +118,17 @@
     font-size: 20px;
     margin-top: 25px;
     margin-bottom: 2px
+
+  }
+  #signup{
+    width: 100%;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    margin-top: 70px;
 
   }
   
