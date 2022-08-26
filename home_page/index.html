@@ -4,252 +4,1143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <style>
-
-        /* #slidbar{
-            display: flex;
-            width: auto;
-            height: 160px;
-            
-            border: 1px solid black;
-        } */
-
-        /* body=slidbar/right==slider/slides=slides */
-
-        #slidbar{
-            margin: 0;
-            padding: 0;
-            width: auto;
-            height: 160px;
-            display: flex;
-            border:3px red;
-            
-            
-        }
-        .slider{
-            margin: 0;
-            padding: 0;
-            width: 70%;
-            height: 160px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-
-
-
-
-
-
-
-        
-        /* .slides {
-            width: auto;
-            height: 160px;
-            display: flex;
-        }
-        .slides input{
-            display: none;
-        }
-        .slide{
-            width: 20%;
-            transition: 2s;
-        }
-        .slide img{
-              width: auto;
-              height: 180px;
-        }
-        .navigataion-manual{
-            position: absolute;
-            width:auto;
-            margin-left:30% ;
-            margin-bottom: -10px;
-            display: flex;
-            justify-content: center;
-        }
-        .manual-btn{
-            border: 2px solid gray;
-            padding: 3px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: 1s;
-        }
-        .manual-btn:not(:last-child){
-            margin-right: 4px;
-        }
-        .manual-btn:hover{
-            background-color:gray;
-        }
-         #rad1:checked~.first{
-            margin-left:0 ;
-
-         }
-         #rad2:checked~.first{
-            margin-left:-20%;
-
-         }
-         #rad3:checked~.first{
-            margin-left:-40% ;
-
-         }
-         #rad4:checked~.first{
-            margin-left:-60% ;
-
-         }
-         #rad5:checked~.first{
-            margin-left:-80%;
-
-         } */
-
-
-
-
-
-
-
-
-
-
-
-
-        .left{
-            width: 30%;
-            height: 160px;
-            border: 1px solid  yellow;
-        }
-        p{
-            text-align: center;
-            font-size: 20px;
-        }
-        #main{
-            display: block;
-            width: auto;
-            height: 100%;
-            background-color: rgb(228, 227, 227);
-        }
-        #main img{
-            width: 90%;
-            height: 130px;
-            margin-left: 5%;
-            padding: 1% 0% 1%;
-        }
-        #main h1{
-            margin-left: 5%;
-            margin-top: -5px;
-        }
-         .catagory{
-            width: auto;
-            display: flex;
-            height: 200px;
-            background-color: white;
-            margin-top: 30px;
-         }
-         .catagory  .imgbox{
-            width: 130px;
-            height: 150px;
-            background-color: aqua;
-            margin-right: 10px;
-            margin: auto;
-            border: 1px solid red;
-            border-radius:5px;
-         }
-
-         
-       
-        
-     
-    </style>
+    <title>1mg</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div><p>Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</p></div>
-    
-    <div id="slidbar">
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="" id="rd1">
-                <input type="radio" name="" id="rd2">
-                <input type="radio" name="" id="rd3">
-                <input type="radio" name="" id="rd4">
-                <input type="radio" name="" id="rd5">
-                <!-- <input type="radio" name="" id="rd6">
-                <input type="radio" name="" id="rd7">
-                <input type="radio" name="" id="rd8">
-                <input type="radio" name="" id="rd9">
-                <input type="radio" name="" id="rd10">
-                <input type="radio" name="" id="rd11"> -->
-                <!-- <div class="slide first">
-                    <img src="https://onemg.gumlet.io/d46e2c6b-983c-464b-a792-cffd78ac48df_1660808836.png?w=899&h=200&format=auto" alt="">
-                </div>
-                <div class="slide">
-                    <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/edq9awox0cpywojoubhb.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/rohm7mk20fc4mairgjg0.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/a7v2ipno4azmdu6cnjuu.png" alt="">
-                </div>
-                <div class="slide">
-                    <img src="https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/kcdcsb5yrkpxok5bpm8y.png" alt="">
-                </div>
-               -->
-                <!-- automatic navigatio div start bilow -->
-                <div class="navigaton-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                    <div class="auto-btn5"></div>
-                   
-                </div>  
+
+    <div id="wholecontainer">
+        <div id="right">
+          <div class="mySlides">
+              <img src="https://onemg.gumlet.io/40f9685f-0900-415b-8396-6776ee575041_1660824542.jpg?w=899&h=200&format=auto"/>
             </div>
-                   <div class="navigataion-manual">
-                    <label for="redio1" class="manual-btn"></label>
-                    <label for="redio2" class="manual-btn"></label>
-                    <label for="redio3" class="manual-btn"></label>
-                    <label for="redio4" class="manual-btn"></label>
-                    <label for="redio5 " class="manual-btn"></label>
-                   </div>
-        </div>
-        <!-- <div class="left"><img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/rohm7mk20fc4mairgjg0.png" alt=""></div> -->
-    </div>
-    <!-- <div id="main">
+      
+            <div class="mySlides">
+              <img src="https://onemg.gumlet.io/3d78d09f-014e-4d93-bf4b-5fa628593e73_1660114080.jpg?w=899&h=200&format=auto" alt=""/>
+            </div>
+      
+            <div class="mySlides">
+              <img src="https://onemg.gumlet.io/0cd9ace6-372d-449e-9d93-8d0f3e5a29dc_1660813136.jpg?w=899&h=200&format=auto"
+                alt=""/>
+              </div>
+      
+              <div class="mySlides">
+                  <img
+                    src="https://onemg.gumlet.io/add3b876-e50e-4d0f-a363-c05517e59baf_1659930985.png?w=899&h=200&format=auto" alt=""/>
+                  </div>
+      
+                  <div class="mySlides">
+                      <img
+                        src="https://onemg.gumlet.io/4895a439-1202-44c1-8dde-0b326ebc8704_1660807072.png?w=899&h=200&format=auto"alt=""/>
+                      
+                      </div>
+      
+                      <div class="dot_container">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                      </div>
+      
+                      
+            </div>
+        
+           
+            <!-- <div>
+              <div class="dot_container">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                      </div>
+          </div> -->
+          <div id="left">
+            <img src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/lp3vc9cq0xcam20cvxe8.png" alt="">
+          </div>
+      </div>
+
+
+
+    <div><h1>Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</h1></div>
+    
+    <div id="main">
 
         <img src="https://res.cloudinary.com/du8msdgbj/image/upload/v1647251796/ueyxzzku83yuvpqxyrwe.png" alt="">
-        <h1>Featured brands</h1>
+        <div id="head">
+            <div><h1>Featured brands</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
     
          <div class="catagory">
-            <div class="imgbox">image1</div>
-            <div class="imgbox">image2</div>
-            <div class="imgbox">image3</div>
-            <div class="imgbox">image4</div>
-            <div class="imgbox">image5</div>
-            <div class="imgbox">image6</div>
-            <div class="imgbox">image7</div>
-            <div class="imgbox">image8</div>
-            <div class="imgbox">image9</div>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/lhy8nkmahfcuzgdt0wov.png" alt="">Dr. Morepen</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/qbzxfojphiqmt8mtlnkh.png" alt="">Jiva Ayurveda</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zdpovu5qoqj7snzwwk0l.png" alt="">HelthVit</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/sojsfqsqrtwqgdpg5jlc.png" alt="">Dr. Willmar Schwabe India</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/fwpopqkz26dldzczqisd.png" alt="">Protinex</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/qflet96kkbruxtf5tbxd.png" alt="">Tetmsol</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/nn8kd6oht7tmvqdkjpzv.png" alt="">MucsleBleze</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/slkfpj0a9a7petpxh37j.png" alt="">ORGANIC INDIA</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/vbp48qpmp5pzu9kvxedz.png" alt="">celevida</div></a>
          </div>
 
 
-         <h1>Featured brands</h1>
-         <div class="catagory"></div>
-         <h1>Full body health checkups</h1>
-         <div class="catagory"></div>
-         <h1>Popular categories</h1>
-         <div class="catagory"></div>
-         <h1>Top Sellers From Sun Pharma</h1>
-         <div class="catagory"></div>
-         <h1>Multivitamins | Supplement of the week</h1>
-         <div class="catagory"></div>
+       
+         
+         <div id="head">
+            <div><h1>Full body health checkups</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+         <div class="checkup">
+            
+         <a href=""><div class="chbox"><img src="1.png" ></div></a>
+         <a href=""><div class="chbox"><img src="2.png" ></div></a>
+         <a href=""><div class="chbox"><img src="5.png" ></div></a>
+         <a href=""><div class="chbox"><img src="6.png" ></div></a>
+         <a href=""><div class="chbox"><img src="7.png" ></div></a>
+         <a href=""><div class="chbox"><img src="8.png" ></div></a>
+         
+        
+        </div>
+
+         
+         <div id="head">
+            <div><h1>Popular categories</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+         <div class="catagory">
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/cabpuknnlyyzgqfnb4x5.png" alt="">Vitamins & suplements</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/x2z8u1osqutmxvx56hlw.png" alt="">Ayurveda</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/fbigjgxv2wquqqb3galn.png" alt="">Healthcare Device</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/uq1gwxslqqrxxwv6zi6j.jpg" alt="">Nutrition Drinks</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/p1blaka183nc1zlil8tq.png" alt="">Sexuall Wellness</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/j7ruar88gacbzksuadjn.png" alt="">Homeopathy</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/h8qo5dk91lliwwihbwnf.png" alt="">Diabetes Care</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/j7ruar88gacbzksuadjn.png" alt="">Homeopathy</div></a>
+            <a href=""><div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/h8qo5dk91lliwwihbwnf.png" alt="">Diabetes Care</div></a>
+         </div>
+
+        
+         <div id="head">
+            <div> <h1>Top Sellers From Sun Pharma</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+         <div class="prtg">
+         <a href="">   <div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/wc72tbagnjxcn8fbm8tc.jpg" alt=""></div>
+           <div class="title">Tata 1mg women's Multivitamins,zinck</div>
+           <div class="pack">jar of 1 kg Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹950</span>
+               <span class="discount">10% off</span>
+               
+           </div>
+           <div class="price">₹855</div>
+
+           
+        </div></a>
+         
+         <a href="">          <div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg" alt=""></div>
+           <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+           <div class="pack">bottle of 500 pellets</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹205</span>
+               <span class="discount">7% off</span>
+               
+           </div>
+           <div class="price">₹265</div>
+
+           
+        </div></a>
+             
+        <a href="">    <div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg" alt=""></div>
+           <div class="title">Sugar Free Nature Low Calorie Sweetener</div>
+           <div class="pack">bottle of 500 pellets</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹300</span>
+               <span class="discount">8% off</span>
+               
+           </div>
+           <div class="price">₹276</div>
+
+           
+        </div></a>
+ 
+         <a href="">  <div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/giinvme6smdnym2a5gyj.jpg" alt=""></div>
+           <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+           <div class="pack">bottle of 100 gm Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹150</span>
+               <span class="discount">4% off</span>
+               
+           </div>
+           <div class="price">₹143</div>
+
+           
+        </div></a>
+
+
+       <a href="">  <div class="box"> 
+        <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ff1onpwycfem2uf0m2fy.jpg" alt=""></div>
+       <div class="title">Sugar Free Green Stevia Pellets</div>
+       <div class="pack">bottle of 300 pellets</div>
+       <div>
+           <span class="mrp">MRP</span>
+           <span class="strik-price">₹215</span>
+           <span class="discount">9% off</span>
+           
+       </div>
+       <div class="price">₹194</div>
+
+       
+    </div></a>
+ 
+       <a href="">     <div class="box"> 
+        <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ugezedfreqybpk0biswf.jpg" alt=""></div>
+       <div class="title">Complan Nutrition and Health Drink with...</div>
+       <div class="pack">box of 1kg Powder</div>
+       <div>
+           <span class="mrp">MRP</span>
+           <span class="strik-price">₹470</span>
+           <span class="discount">16% off</span>
+           
+       </div>
+       <div class="price">₹345</div>
+
+       
+    </div></a>
+ 
+          <a href=""><div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q3wiyzvmbz5iazlwxywa.jpg" alt=""></div>
+           <div class="title">Complan Nutrition and Health Drink with...</div>
+           <div class="pack">Jar of 500gm Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹335</span>
+               <span class="discount">5% off</span>
+               
+           </div>
+           <div class="price">₹318</div>
+
+           
+        </div></a>
+ 
+ 
+         <a href=""><div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/geiwxvovi2c600riqel3.jpg" alt=""></div>
+           <div class="title">Complan Nutrition and Health Drink with...</div>
+           <div class="pack">Jar of 500gm Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹335</span>
+               <span class="discount">5% off</span>
+               
+           </div>
+           <div class="price">₹318</div>
+
+           
+        </div></a>
+
+        <a href=""><div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg" alt=""></div>
+           <div class="title">Complan Nutrition and Health Drink with...</div>
+           <div class="pack">box of 1kg Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹470</span>
+               <span class="discount">16% off</span>
+               
+           </div>
+           <div class="price">₹345</div>
+
+           
+        </div></a>
+
+        <a href=""><div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg" alt=""></div>
+           <div class="title">Complan Nutrition and Health Drink with...</div>
+           <div class="pack">Jar of 500gm Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹335</span>
+               <span class="discount">5% off</span>
+               
+           </div>
+           <div class="price">₹318</div>
+
+           
+        </div></a>
+
+        <a href=""><div class="box"> 
+            <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg" alt=""></div>
+           <div class="title">Complan Nutrition and Health Drink with...</div>
+           <div class="pack">box of 1kg Powder</div>
+           <div>
+               <span class="mrp">MRP</span>
+               <span class="strik-price">₹470</span>
+               <span class="discount">16% off</span>
+               
+           </div>
+           <div class="price">₹345</div>
+
+           
+        </div></a>
+
+       <a href=""> <div class="box"> 
+        <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q58rjxdaynvly9s1xfj7.jpg" alt=""></div>
+       <div class="title">Complan Nutrition and Health Drink with...</div>
+       <div class="pack">Jar of 500gm Powder</div>
+       <div>
+           <span class="mrp">MRP</span>
+           <span class="strik-price">₹335</span>
+           <span class="discount">5% off</span>
+           
+       </div>
+       <div class="price">₹318</div>
+
+       
+    </div></a>
+ 
+  
+          
+        </div>
+          
+
+        
+         <div id="head">
+            <div> <h1>Multivitamins | Supplement of the week</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+        <div class="prtg">
+            <a href="">   <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/wc72tbagnjxcn8fbm8tc.jpg" alt=""></div>
+              <div class="title">Tata 1mg women's Multivitamins,zinck</div>
+              <div class="pack">jar of 1 kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹950</span>
+                  <span class="discount">10% off</span>
+                  
+              </div>
+              <div class="price">₹855</div>
+   
+              
+           </div></a>
+            
+            <a href="">          <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹205</span>
+                  <span class="discount">7% off</span>
+                  
+              </div>
+              <div class="price">₹265</div>
+   
+              
+           </div></a>
+                
+           <a href="">    <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg" alt=""></div>
+              <div class="title">Sugar Free Nature Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹300</span>
+                  <span class="discount">8% off</span>
+                  
+              </div>
+              <div class="price">₹276</div>
+   
+              
+           </div></a>
+    
+            <a href="">  <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/giinvme6smdnym2a5gyj.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 100 gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹150</span>
+                  <span class="discount">4% off</span>
+                  
+              </div>
+              <div class="price">₹143</div>
+   
+              
+           </div></a>
+   
+   
+          <a href="">  <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ff1onpwycfem2uf0m2fy.jpg" alt=""></div>
+          <div class="title">Sugar Free Green Stevia Pellets</div>
+          <div class="pack">bottle of 300 pellets</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹215</span>
+              <span class="discount">9% off</span>
+              
+          </div>
+          <div class="price">₹194</div>
+   
+          
+       </div></a>
+    
+          <a href="">     <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ugezedfreqybpk0biswf.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">box of 1kg Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹470</span>
+              <span class="discount">16% off</span>
+              
+          </div>
+          <div class="price">₹345</div>
+   
+          
+       </div></a>
+    
+             <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q3wiyzvmbz5iazlwxywa.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+    
+    
+            <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/geiwxvovi2c600riqel3.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+          <a href=""> <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q58rjxdaynvly9s1xfj7.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">Jar of 500gm Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹335</span>
+              <span class="discount">5% off</span>
+              
+          </div>
+          <div class="price">₹318</div>
+   
+          
+       </div></a>
+    
+     
+             
+           </div>
+
+        
+         <div id="head">
+            <div> <h1>Shop by Health Concerns</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+         <div class="catagory">
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/hgzkyio2rphkn6wjif94.png" alt="">Diabetes Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zo7sc14nqpt6ebeojkvr.png" alt="">Cradiac Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ttagxlnxulsvkyv9fetr.png" alt="">Stomach Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ijgn7fhyq8ig0welmrcp.png" alt="">Liver Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/zytsldnf5mvb0u19ydep.png" alt="">Kidny Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ywohqm4txnehsmibypaz.png" alt="">Bone,Joint & Mucsle Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/hn5bpr1ci2do5kdub51v.png" alt="">Pain Relief</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/ywohqm4txnehsmibypaz.png" alt="">Bone,Joint & Mucsle Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/hn5bpr1ci2do5kdub51v.png" alt="">Pain Relief</div>
+        </div>
+         
+         <div id="head">
+            <div><h1>Sugar substitutes</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+        <div class="prtg">
+            <a href="">   <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/wc72tbagnjxcn8fbm8tc.jpg" alt=""></div>
+              <div class="title">Tata 1mg women's Multivitamins,zinck</div>
+              <div class="pack">jar of 1 kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹950</span>
+                  <span class="discount">10% off</span>
+                  
+              </div>
+              <div class="price">₹855</div>
+   
+              
+           </div></a>
+            
+            <a href="">          <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹205</span>
+                  <span class="discount">7% off</span>
+                  
+              </div>
+              <div class="price">₹265</div>
+   
+              
+           </div></a>
+                
+           <a href="">    <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg" alt=""></div>
+              <div class="title">Sugar Free Nature Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹300</span>
+                  <span class="discount">8% off</span>
+                  
+              </div>
+              <div class="price">₹276</div>
+   
+              
+           </div></a>
+    
+            <a href="">  <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/giinvme6smdnym2a5gyj.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 100 gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹150</span>
+                  <span class="discount">4% off</span>
+                  
+              </div>
+              <div class="price">₹143</div>
+   
+              
+           </div></a>
+   
+   
+          <a href="">  <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ff1onpwycfem2uf0m2fy.jpg" alt=""></div>
+          <div class="title">Sugar Free Green Stevia Pellets</div>
+          <div class="pack">bottle of 300 pellets</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹215</span>
+              <span class="discount">9% off</span>
+              
+          </div>
+          <div class="price">₹194</div>
+   
+          
+       </div></a>
+    
+          <a href="">     <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ugezedfreqybpk0biswf.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">box of 1kg Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹470</span>
+              <span class="discount">16% off</span>
+              
+          </div>
+          <div class="price">₹345</div>
+   
+          
+       </div></a>
+    
+             <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q3wiyzvmbz5iazlwxywa.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+    
+    
+            <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/geiwxvovi2c600riqel3.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+          <a href=""> <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q58rjxdaynvly9s1xfj7.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">Jar of 500gm Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹335</span>
+              <span class="discount">5% off</span>
+              
+          </div>
+          <div class="price">₹318</div>
+   
+          
+       </div></a>
+    
+     
+             
+           </div>
+         <div id="head">
+            <div><h1>Trending now</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+        <div class="prtg">
+            <a href="">   <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/wc72tbagnjxcn8fbm8tc.jpg" alt=""></div>
+              <div class="title">Tata 1mg women's Multivitamins,zinck</div>
+              <div class="pack">jar of 1 kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹950</span>
+                  <span class="discount">10% off</span>
+                  
+              </div>
+              <div class="price">₹855</div>
+   
+              
+           </div></a>
+            
+            <a href="">          <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹205</span>
+                  <span class="discount">7% off</span>
+                  
+              </div>
+              <div class="price">₹265</div>
+   
+              
+           </div></a>
+                
+           <a href="">    <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg" alt=""></div>
+              <div class="title">Sugar Free Nature Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹300</span>
+                  <span class="discount">8% off</span>
+                  
+              </div>
+              <div class="price">₹276</div>
+   
+              
+           </div></a>
+    
+            <a href="">  <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/giinvme6smdnym2a5gyj.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 100 gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹150</span>
+                  <span class="discount">4% off</span>
+                  
+              </div>
+              <div class="price">₹143</div>
+   
+              
+           </div></a>
+   
+   
+          <a href="">  <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ff1onpwycfem2uf0m2fy.jpg" alt=""></div>
+          <div class="title">Sugar Free Green Stevia Pellets</div>
+          <div class="pack">bottle of 300 pellets</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹215</span>
+              <span class="discount">9% off</span>
+              
+          </div>
+          <div class="price">₹194</div>
+   
+          
+       </div></a>
+    
+          <a href="">     <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ugezedfreqybpk0biswf.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">box of 1kg Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹470</span>
+              <span class="discount">16% off</span>
+              
+          </div>
+          <div class="price">₹345</div>
+   
+          
+       </div></a>
+    
+             <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q3wiyzvmbz5iazlwxywa.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+    
+    
+            <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/geiwxvovi2c600riqel3.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+          <a href=""> <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q58rjxdaynvly9s1xfj7.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">Jar of 500gm Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹335</span>
+              <span class="discount">5% off</span>
+              
+          </div>
+          <div class="price">₹318</div>
+   
+          
+       </div></a>
+    
+     
+             
+           </div>
+         <div id="head">
+            <div><h1>Pathology Tests | Up to 70% off</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+         <div class="checkup">
+            
+            <div class="chbox"><img src="1.png" ></div>
+            <div class="chbox"><img src="2.png" ></div>
+            <div class="chbox"><img src="5.png" ></div>
+            <div class="chbox"><img src="6.png" ></div>
+            <div class="chbox"><img src="7.png" ></div>
+            <div class="chbox"><img src="8.png" ></div>
+            
+           
+           </div>
+         
+         <div id="head">
+            <div><h1>Deals of the day</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+        <div class="prtg">
+            <a href="">   <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/wc72tbagnjxcn8fbm8tc.jpg" alt=""></div>
+              <div class="title">Tata 1mg women's Multivitamins,zinck</div>
+              <div class="pack">jar of 1 kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹950</span>
+                  <span class="discount">10% off</span>
+                  
+              </div>
+              <div class="price">₹855</div>
+   
+              
+           </div></a>
+            
+            <a href="">          <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹205</span>
+                  <span class="discount">7% off</span>
+                  
+              </div>
+              <div class="price">₹265</div>
+   
+              
+           </div></a>
+                
+           <a href="">    <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg" alt=""></div>
+              <div class="title">Sugar Free Nature Low Calorie Sweetener</div>
+              <div class="pack">bottle of 500 pellets</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹300</span>
+                  <span class="discount">8% off</span>
+                  
+              </div>
+              <div class="price">₹276</div>
+   
+              
+           </div></a>
+    
+            <a href="">  <div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/giinvme6smdnym2a5gyj.jpg" alt=""></div>
+              <div class="title">Sugar Free Gold Low Calorie Sweetener</div>
+              <div class="pack">bottle of 100 gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹150</span>
+                  <span class="discount">4% off</span>
+                  
+              </div>
+              <div class="price">₹143</div>
+   
+              
+           </div></a>
+   
+   
+          <a href="">  <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ff1onpwycfem2uf0m2fy.jpg" alt=""></div>
+          <div class="title">Sugar Free Green Stevia Pellets</div>
+          <div class="pack">bottle of 300 pellets</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹215</span>
+              <span class="discount">9% off</span>
+              
+          </div>
+          <div class="price">₹194</div>
+   
+          
+       </div></a>
+    
+          <a href="">     <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ugezedfreqybpk0biswf.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">box of 1kg Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹470</span>
+              <span class="discount">16% off</span>
+              
+          </div>
+          <div class="price">₹345</div>
+   
+          
+       </div></a>
+    
+             <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q3wiyzvmbz5iazlwxywa.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+    
+    
+            <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/geiwxvovi2c600riqel3.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jmuuryvgit6mwwolt0ea.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dgcszilwgcv0dzorjzdk.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">Jar of 500gm Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹335</span>
+                  <span class="discount">5% off</span>
+                  
+              </div>
+              <div class="price">₹318</div>
+   
+              
+           </div></a>
+   
+           <a href=""><div class="box"> 
+               <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/gmkrpf1imjj9djwvq4gq.jpg" alt=""></div>
+              <div class="title">Complan Nutrition and Health Drink with...</div>
+              <div class="pack">box of 1kg Powder</div>
+              <div>
+                  <span class="mrp">MRP</span>
+                  <span class="strik-price">₹470</span>
+                  <span class="discount">16% off</span>
+                  
+              </div>
+              <div class="price">₹345</div>
+   
+              
+           </div></a>
+   
+          <a href=""> <div class="box"> 
+           <div class="prtgimg"><img src="https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/q58rjxdaynvly9s1xfj7.jpg" alt=""></div>
+          <div class="title">Complan Nutrition and Health Drink with...</div>
+          <div class="pack">Jar of 500gm Powder</div>
+          <div>
+              <span class="mrp">MRP</span>
+              <span class="strik-price">₹335</span>
+              <span class="discount">5% off</span>
+              
+          </div>
+          <div class="price">₹318</div>
+   
+          
+       </div></a>
+    
+     
+             
+           </div>
+        
+         <div id="head">
+            <div><h1>Personal care</h1></div>
+            <div><button>SEE ALL</button></div>
+        </div>
+         <div class="catagory">
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/n8ocwaqoerqke0nbrtrr.png" alt="">Skin care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/myhagyzdangsd1ibwotm.png" alt="">Sexuall Wellness</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/kgdli04gm2hcjgel553r.png" alt="">Hair care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/u5awkf56gidlnhuybvqh.png" alt="">Baby Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/yuam4evyvw7adyhqixzv.png" alt="">Women Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d7ocpsrtehsla83kbxqs.png" alt=""> Elderly Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/pa32gmnhdlk0ownn9b7p.png" alt="">Man Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/et2g6nylqsdndeutxloi.png" alt=""> Oral Care</div>
+            <div class="imgbox"><img src="https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/jmdy8kha8pnlrjz9veue.png" alt="">Pet Care</div>
+            <!-- <div class="imgbox"><img src="" alt=""></div>
+            <div class="imgbox"><img src="" alt=""></div>
+            <div class="imgbox"><img src="" alt=""></div>
+            <div class="imgbox"><img src="" alt=""></div>
+            <div class="imgbox"><img src="" alt=""> </div>
+            <div class="imgbox"><img src="" alt=""></div>
+            <div class="imgbox"><img src="" alt=""> </div>
+            <div class="imgbox"><img src="" alt=""></div> -->
+        </div>
+        
         
         
         
 
 
 
-    </div> -->
+    </div>
 </body>
 </html>
+<script src="index.js"></script>
