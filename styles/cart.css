@@ -1,0 +1,137 @@
+#navbar{
+    height: 60px;
+    width: 97%;
+    border: 1px solid rgba(246, 239, 239, 0.786);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#navbar>div:nth-child(1)
+{
+  width: 130px;
+  height: 40px;
+ 
+}
+#navbar>div:nth-child(2)
+{
+    
+}
+#ext{
+    width:68%;
+    height: auto;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+}
+#show{
+    width:60%;
+    border: 1px solid green;
+}
+#amount{
+    width:40%;
+  
+    border: 1px solid green;
+}
+#plan{
+    border: 1px solid grey;
+}
+#plan>img{
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+}
+#plan>h3{
+    color: rgb(76, 184, 166); margin-top: -10px;
+    margin-left: 10px;
+}
+#plan>h5{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+#plan>p{
+    font-size: 14px;margin-top: -15px;
+    margin-left: 10px;
+}
+#plan>button{
+    width: 160px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#check{
+    margin-top: 30px;
+    border: 1px solid grey;
+}
+#tick{
+    display: inline;
+    margin-left: 10px;
+}
+/* #same{
+    
+    margin-top: -10px;
+    margin-left: 10px;
+   display: flex;
+} */
+#amount{
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+#amount>div{
+    width: 100%;
+}
+#amount>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#amount>div>div>p{
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: center;
+}
+#location{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#checkout{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    
+   
+}
+#cont>div{
+    border:1px solid gray;
+}
+#cont>p{
+    margin-top: -15px;
+}
+#adv{
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    grid-template-rows: 300px 300px;
+    gap:10px;
+}
+#adv>div{
+    border: 1px solid red;
+}
+#adv>div>div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#adv>div>div>img{
+    width: 100%;
+    height: 100%;
+}
+#adv>div>h4,p{
+    text-align: center;
+}
