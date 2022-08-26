@@ -75,38 +75,27 @@ resume = () => {
 //     window.location.href = "signup.html"
 // })
 let form = document.querySelector(".form");
-let login = document.querySelector("#login");
+// let login = document.querySelector("#login");
     let userData = JSON.parse(localStorage.getItem("userData")) || [];
-    login.addEventListener("click",function(event){
+    console.log( userData)
+
+    login.addEventListener("click",fun)
+    function fun(event){
+
+    
         event.preventDefault();
-        let data = {
-            email:form.mobile.value,
-            password:form.password.value,
-        }
-
-        if(checkSignin(data.email,data.password)===true){
-            alert("Sign in Successful");
-            window.location.href="dashboard.html"
-            name(data.email)
-        }else{
-            alert("Wrong Username or Password");
-            window.location.href="signup.html"
-        }
-    })
-
-    function checkSignin(mobile,password){
-        let filter = userData.filter(function(element){
-            return element.mobile === mobile && element.password === password;
-        })
-        if(filter.length>0){
-            return true;
-        }else{
-            return false;
-        }
-    }
-    let name = (mobile)=>{
-        userData.forEach((element) => {
-            if(element.mobile == mobile)
-            localStorage.setItem("Name_on_Dashboard", element.name)    
-        });
-    }
+        console.log("hello")
+        
+            email=form.mobile.value,
+            password=form.password.value,
+      
+            userData.forEach((element)=>{
+              if(element.email==email&&element.password==password)
+              {
+                swal("Good job!", "You clicked the button!", "success");
+              }
+             
+            
+            });
+          }
+            
