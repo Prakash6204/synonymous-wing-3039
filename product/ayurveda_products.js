@@ -461,7 +461,6 @@ var fashionData = [
       div111.append(div11,div55);
       
       box.append(fashion_avatar, fashion_brand, fashion_name,divrating, div6,div111);
-      box.append(fashion_avatar, fashion_brand, fashion_name, div6,div111);
       container.append(box);
   
     });
