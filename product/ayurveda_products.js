@@ -316,7 +316,6 @@ var fashionData = [
       displayData(fashionData)
     }
     if(selected=="relevance"){
-    if(selected=="popular"){
       fashionData.sort(function(a){
         if(a.price>300)
         {
@@ -346,7 +345,6 @@ var fashionData = [
       });
       displayData(fashionData)
     }
-  }
   }
   
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
