@@ -1,0 +1,62 @@
+div{
+  display: block;
+}
+#flutter_man_div {
+  font-size: 14px;
+  color: #000;
+  background-color: #fffcf8;
+  text-align: center;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#flutter_head {
+  background-color: #fff;
+  box-shadow: 2px 0 4px 0 rgb(0 0 0 / 12%);
+}
+#top_heading{
+  box-sizing: border-box;
+}
+#top_heading>h2{
+  text-align: center;
+  line-height: 1.42857143;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 24px;
+  padding: 24px 0;
+  margin: 0;
+}
+#flutter_flex_box{
+  display: flex;
+  color: #000;
+  justify-content: space-evenly;
+}
+.flutter_num{
+  font-size: 32px;
+  font-weight: 700;
+}
+.flutter_text{
+  font-size: 16px;
+}
+.flutter_border{
+  height: 1px;
+    border: 1px solid lightgray;
+    z-index: 9999;
+    width: 90%;
+    margin: 24px auto;
+    left: 5%;
+    color: #000;
+}
+#flutter_flex_bottom{
+  display: flex;
+  padding-bottom: 24px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+#flutter_botton_text{
+  font-size: 20px;
+  margin-right: 36px;
+}
