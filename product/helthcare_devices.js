@@ -1,302 +1,301 @@
 var fashionData = [
     {
       avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/fwsijrygu1vgmteufk0z/himalaya-wellness-pure-herbs-ashvagandha-tablet.jpg",
-      brand: "Himalaya Wellness Pure Herbs Ashvagandha Tablet",
-      name: "packet of 60 tablets",
-      rating_number:4.5,
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cpg2u1iaffc5aqas8uyq/tata-1mg-bis-approved-ffp2-n95-mask-white-ear-loop-5-layer.jpg",
+      brand: "Tata 1mg BIS Approved FFP2 N95 Mask White - Ear Loop 5 Layer",
+      name: "box of 2 masks",
+      rating_number:"4.1",
       star:"★",
-      rating:"834 ratings",
+      rating:"379 ratings",
       rupees: "₹",
-      price: 171,
-      rupees2: "₹",
-      price2: 180,
-      offer: "5% OFF"
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/ofebdnyfexdt43pmzrmb/himalaya-wellness-pure-herbs-brahmi-mind-wellness-tablet.jpg",
-  
-      brand: "Himalaya Wellness Pure Herbs Brahmi Mind Wellness Tablet",
-      name: "bottle of 60 tablets",
-      rating_number:4.3,
-      star:"★",
-      rating:"549 ratings",
-      rupees: "₹",
-      price: 171,
-      rupees2: "₹",
-      price2: 180,
-      offer: "5% OFF",
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/xbqurya2hj3r6v4lhj8g/baidyanath-shankhpushpi-sarbat-daily-brain-tonic-2-in-1-offer-450-ml-with-free-220ml.png",
-      brand: "Baidyanath Shankhpushpi Sarbat Daily Brain Tonic 2-in-1 Offer",
-      name: "bottle of 450 ml Kit",
-      rating_number:4.1,
-      star:"★",
-      rating:"104 ratings",
-      rupees: "₹",
-      price: 194,
-      rupees2: "₹",
-      price2: 215,
-      offer: "9% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/c5h0rjmw3hw30gsvo76h/upakarma-ayurveda-pure-shilajit.jpg",
-      brand: "Upakarma Ayurveda Pure Shilajit",
-      name: "jar of 15 gm Paste",
-      rating_number:3.6,
-      star:"★",
-      rating:"96 ratings",
-      rupees: "₹",
-      price: 899,
-      rupees2: "₹",
-      price2: 1450,
-      offer: "38% OFF"
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/wtc6iza2awdhx0nxvkhr/sri-sri-tattva-ashwagandha-500mg-tablet.jpg",
-      brand: "Sri Sri Tattva Ashwagandha 500mg Tablet",
-      name: "bottle of 60 tablets",
-      rating_number:4.3,
-      star:"★",
-      rating:"620 ratings",
-      rupees: "₹",
-      price: 143,
-      rupees2: "₹",
-      price2: 150,
-      offer: "4% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/eyf2bzztia0j1qdlvyqc/dabur-swarna-guggulu-tablet.jpg",
-      brand: "Dabur Swarna Guggulu Tablet",
-      name: "bottle of 30 tablets",
-      rating_number:4.1,
-      star:"★",
-      rating:"48 ratings",
-      rupees: "₹",
-      price: 1125,
-      rupees2: "₹",
-      price2: 1250,
-      offer: "10% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/p1rne1wmkd6la22gmbvs/baidyanath-shankhpushpi-sarbat-2-in-1-offer-220-ml-with-free-110ml.jpg",
-      brand: "Baidyanath Shankhpushpi Sarbat 2-in-1 Offer( 220 ml with Free",
-      name: "box of 1 Kit",
-      rating_number:4.1,
-      star:"★",
-      rating:"53 ratings",
-      rupees: "₹",
-      price: 110,
-      rupees2: "₹",
-      price2: 120,
-      offer: "8% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/nn3dk7vdl1yhigrv7qtr/dabur-stresscom-ashwagandha-capsule.jpg",
-      brand: "Dabur Stresscom Ashwagandha Capsule",
-      name: "box of 120 capsules",
-      rating_number:4.3,
-      star:"★",
-      rating:"80 ratings",
-      rupees: "₹",
-      price: 885,
-      rupees2: "₹",
-      price2: 912,
-      offer: "3% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/zt5mms9yofqd14tilb9o/himalaya-mentat-tablet.jpg",
-      brand: "Himalaya Mentat Tablet",
-      name: "bottle of 60 tablets",
-      rating_number:4.1,
-      star:"★",
-      rating:"549 ratings",
-      rupees: "₹",
-      price: 125,
-      rupees2: "₹",
-      price2: 130,
-      offer: "4% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/m4stax99vxchp0v9cfmb/dhootapapeshwar-rasaraj-rasa-premium-quality-suvarnakalpa.jpg",
-      brand: "Dhootapapeshwar Rasaraj Rasa Premium Quality Suvarnakalpa",
-      name: "packet of 30 tablets",
-      rating_number:4,
-      star:"★",
-      rating:"22 ratings",
-      rupees: "₹",
-      price: 3186,
-      rupees2: "₹",
-      price2: 3813,
-      offer: "16% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/v6apzm1ten1cr3xqm5ca/baidyanath-sarswatarista.jpg",
-      brand: "Baidyanath Sarswatarista",
-      name: "bottle of 450 ml Liquid",
-      rating_number:4.3,
-      star:"★",
-      rating:"60 ratings",
-      rupees: "₹",
-      price: 191,
-      rupees2: "₹",
-      price2: 208,
-      offer: "8% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/9590aa206d9b44d0ac5c98988f18c344/maharishi-ayurveda-combo-of-amrit-kalash-60-tablets-600gm-paste.jpg",
-      brand: "Maharishi Ayurveda Combo of Amrit Kalash 60 Tablets & 600g",
-      name: "combo pack of 2 Packs",
-      rating_number:4,
-      star:"★",
-      rating:"16 ratings",
-      rupees: "₹",
-      price: 1589,
-      rupees2: "₹",
-      price2: 2100,
-      offer: "24% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/sz50zudwhkmwoehmb3qa/baidyanath-ashwagandhadi-churna-for-general-debility.jpg",
-      brand: "Baidyanath Ashwagandhadi Churna for General Debility",
-      name: "jar of 100 gm Churna",
-      rating_number:4.4,
-      star:"★",
-      rating:"31 ratings",
-      rupees: "₹",
-      price: 129,
-      rupees2: "₹",
-      price2: 140,
-      offer: "8% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/zoqhprcoewmtjn0g9n0k/sri-sri-tattva-brahma-rasayana.jpg",
-      brand: "Sri Sri Tattva Brahma Rasayana",
-      name: "jar of 250 gm Paste",
-      rating_number:4.4,
-      star:"★",
-      rating:"9 ratings",
-      rupees: "₹",
-      price: 152,
+      price: 81,
       rupees2: "₹",
       price2: 160,
-      offer: "5% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/zxmgoisxykokm8zobrhp/dabur-ashwagandharishta.jpg",
-      brand: "Dabur Ashwagandharishta",
-      name: "bottle of 680 ml Liquid",
-      rating_number:3.8,
-      star:"★",
-      rating:"129 ratings",
-      rupees: "₹",
-      price: 280,
-      rupees2: "₹",
-      price2: 300,
-      offer: "5% OFF"
-    },
+      offer: "49% OFF"
   
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/xwhdpbdpayyc7mdyjdyi/kerala-ayurveda-brahmi-pearls-capsule.png",
-      brand: "Kerala Ayurveda Brahmi Pearls Capsule",
-      name: "packet of 40 capsules",
-      rating_number:4.4,
-      star:"★",
-      rating:"47 ratings",
-      rupees: "₹",
-      price: 266,
-      rupees2: "₹",
-      price2: 340,
-      offer: "21% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/baq7muruv13assoanxuz/organic-india-ashwagandha-veg-capsule.jpg",
-      brand: "Organic India Ashwagandha Veg Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:4.4,
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kn3t8i4k9uqcly3n2aif/omron-hem8712-bp-monitor.jpg",
+      brand: "Omron HEM8712 BP Monitor",
+      name: "box of 1 Unit",
+      rating_number:"4.1",
       star:"★",
-      rating:"315 ratings",
+      rating:"484 ratings",
+      rupees: "₹",
+      price: 1938,
+      rupees2: "₹",
+      price2: 2640,
+      offer: "26% OFF",
+  
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kvj2s20yfo4z7khpkuvl/quarant-kids-3-ply-surgical-mask-50-each-blue.jpg",
+      brand: "Quarant Kids 3 Ply Surgical Mask (50 Each) Blue",
+      name: "box of 1 Pack",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
       rupees: "₹",
       price: 299,
       rupees2: "₹",
-      price2: 1099,
-      offer: "10% OFF"
+      price2: 500,
+      offer: "40% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/ndemo2lhbtadzcbaq1sk/dabur-saraswatarishta.png",
-      brand: "Dabur Saraswatarishta",
-      name: "bottle of 450 ml Liquid",
-      rating_number:4.5,
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/v4dwyzdykvnz0gntvg1g/tata-1mg-latex-non-sterile-gloves.jpg",
+      brand: "Tata 1mg Latex Non-Sterile Gloves",
+      name: "box of 50 Gloves",
+      rating_number:"4.6",
       star:"★",
-      rating:"312 ratings",
+      rating:"32 ratings",
       rupees: "₹",
-      price: 185,
+      price: 249,
       rupees2: "₹",
-      price2: 205,
-      offer: "9% OFF"
+      price2: 450,
+      offer: "44% OFF"
+  
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/enzkqpb9iatoekbukagn/zeroharm-sciences-holistic-curcumin-tablet-for-skin-joint-support-and-anxiety.jpg",
-      brand: "Zeroharm Sciences Holistic Curcumin Tablet for Skin, Joint",
-      name: "bottle of 60 tablets",
-      rating_number:4.4,
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/vuvbtuztcjbxowjahl3z/accu-chek-active-blood-glucometer-kit-box-of-10-test-strips-free.jpg",
+      brand: "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test",
+      name: "packet of 1 Kit",
+      rating_number:"4",
       star:"★",
-      rating:"367 ratings",
+      rating:"1001 ratings",
       rupees: "₹",
-      price: 1199,
+      price: 1319,
       rupees2: "₹",
-      price2: 1450,
+      price2: 1599,
       offer: "17% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/iutlj4zjsxfgrz4nlnnw/dabur-ashwagandha-churna.jpg",
-      brand: "Dabur Ashwagandha Churna",
-      name: "jar of 100 gm Churna",
-      rating_number:4.4,
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/gzsf62jsu5mll2hmuroi/tata-1mg-knee-support-pair-of-2-medium.jpg",
+      brand: "Tata 1mg Knee Support Pair of 2 Medium",
+      name: "combo pack of 2 units",
+      rating_number:"4.3",
       star:"★",
-      rating:"315 ratings",
+      rating:"94 ratings",
       rupees: "₹",
-      price: 133,
+      price: 226,
       rupees2: "₹",
-      price2: 140,
+      price2: 300,
+      offer: "24% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kpe9etn4nzuxkl6hzrch/quarant-3-ply-protective-face-mask-100-each-black.jpg",
+      brand: "Quarant 3 Ply Protective Face Mask (100 Each) Black",
+      name: "box of 1 Pack",
+      rating_number:"4.8",
+      star:"★",
+      rating:"5 ratings",
+      rupees: "₹",
+      price: 429,
+      rupees2: "₹",
+      price2: 1200,
+      offer: "64% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/svd6zqkxakoezsaqyxqp/goqii-smart-vital-fitness-spo2-tracker-with-3-months-personal-coaching-subscription.png",
+      brand: "GOQii Smart Vital Fitness SpO2 Tracker with 3 Months Personal",
+      name: "box of 1 Unit",
+      rating_number:"4",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 5759,
+      rupees2: "₹",
+      price2: 5999,
+      offer: "4% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/pc0kfczcu5phbkk5sy41/dr-morepen-gluco-one-bg-03-blood-glucose-test-strip.jpg",
+      brand: "Dr Morepen Gluco One BG 03 Blood Glucose Test Strip",
+      name: "box of 50 Test Strips",
+      rating_number:"4.4",
+      star:"★",
+      rating:"6207 ratings",
+      rupees: "₹",
+      price: 628,
+      rupees2: "₹",
+      price2: 849,
+      offer: "26% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/dk4bsseilzpnfr953q7e/omron-cms50n-contec-pulse-oximeter.png",
+      brand: "Omron CMS50N Contec Pulse Oximeter",
+      name: "box of 1 Unit",
+      rating_number:"3.8",
+      star:"★",
+      rating:"263 ratings",
+      rupees: "₹",
+      price: 1299,
+      rupees2: "₹",
+      price2: 1748,
+      offer: "25% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/sqpxiybvn36cnqnq0wnz/quarant-4-ply-activated-carbon-nanosilver-surgical-face-mask-with-self-sanitizing-grey.jpg",
+      brand: "Quarant 4 Ply Activated Carbon Nanosilver Surgical Face Mask wit",
+      name: "box of 50 masks",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 479,
+      rupees2: "₹",
+      price2: 1000,
+      offer: "52% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/pq9kpnup8oubjoihzhmw/tata-1mg-blood-pressure-monitor-fully-automatic.jpg",
+      brand: "Tata 1mg Blood Pressure Monitor Fully Automatic",
+      name: "box of 1 Unit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"128 ratings",
+      rupees: "₹",
+      price: 1463,
+      rupees2: "₹",
+      price2: 1540,
       offer: "5% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/yvwpfrrtvzf8wbr0gihe/dabur-brahmi-vati.png",
-      brand: "Dabur Brahmi Vati",
-      name: "bottle of 40 tablets",
-      rating_number:4.3,
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/fnnbetu2wvz56ehdyblo/coviself-covid-19-rapid-antigen-self-test-kit.jpg",
+      brand: "CoviSelf Covid 19 Rapid Antigen Self Test Kit",
+      name: "packet of 1 Self Test Kit",
+      rating_number:"4.1",
       star:"★",
-      rating:"154 ratings",
+      rating:"308 ratings",
       rupees: "₹",
-      price: 121,
+      price: 176,
       rupees2: "₹",
-      price2: 127,
-      offer: "4% OFF"
+      price2: 250,
+      offer: "29% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/i9qxdbmdngqric7qiib0/onetouch-verio-test-strip.jpg",
+      brand: "OneTouch Verio Test Strip",
+      name: "box of 50 Test Strips",
+      rating_number:"4.5",
+      star:"★",
+      rating:"593 ratings",
+      rupees: "₹",
+      price: 1040,
+      rupees2: "₹",
+      price2: 1095,
+      offer: "5% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/alaxemnemhujdiaqwqxs/quarant-mask-4-ply-designer-protective-face-prism-print-multicolor.jpg",
+      brand: "Quarant Mask 4 Ply Designer Protective Face Prism Print",
+      name: "packet of 50 masks",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 449,
+      rupees2: "₹",
+      price2: 1000,
+      offer: "55% OFF"
+    },
+  
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/tq2tdez2rmtqy6r5nvin/vissco-cycle-exerciser-1015.jpg",
+      brand: "Vissco Cycle Exerciser-1015",
+      name: "box of 1 Unit",
+      rating_number:"4.3",
+      star:"★",
+      rating:"15 ratings",
+      rupees: "₹",
+      price: 1797,
+      rupees2: "₹",
+      price2: 2405,
+      offer: "25% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/u9odvhwfngsrshfpdmj8/tynor-d-10-r.o.m.-knee-brace-universal.jpg",
+      brand: "Tynor D 10 R.O.M. Knee Brace Universal",
+      name: "box of 1 Unit",
+      rating_number:"3.2",
+      star:"★",
+      rating:"67 ratings",
+      rupees: "₹",
+      price: 1928,
+      rupees2: "₹",
+      price2: 2410,
+      offer: "20% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/zf1lkgpcmf9cwlv5lrui/dr-morepen-blood-pressure-monitor-bp-09.jpg",
+      brand: "Dr Morepen Blood Pressure Monitor BP 09",
+      name: "box of 1 Unit",
+      rating_number:"3.8",
+      star:"★",
+      rating:"297 ratings",
+      rupees: "₹",
+      price: 1205,
+      rupees2: "₹",
+      price2: 1565,
+      offer: "23% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/szy3ojcgktpqabzfbiog/quarant-4-ply-designer-protective-face-mask-mask-camo-print-black.jpg",
+      brand: "Quarant 4 Ply Designer Protective Face Mask Mask Camo print Black",
+      name: "packet of 50 masks",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 429,
+      rupees2: "₹",
+      price2: 1000,
+      offer: "57% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/tlnln5nlw238f310zzrj/accu-chek-active-test-strip.jpg",
+      brand: "Accu-Chek Active Test Strip",
+      name: "box of 50 Test Strips",
+      rating_number:"4.3",
+      star:"★",
+      rating:"4811 ratings",
+      rupees: "₹",
+      price: 996,
+      rupees2: "₹",
+      price2: 1049,
+      offer: "5% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/oazosjs1jw0xpc8gdn7r/omron-mc-246-thermometer.png",
+      brand: "Omron MC-246 Thermometer",
+      name: "packet of 1 Unit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"345 ratings",
+      rupees: "₹",
+      price: 261,
+      rupees2: "₹",
+      price2: 275,
+      offer: "5% OFF"
     },
   
   
@@ -316,7 +315,6 @@ var fashionData = [
       displayData(fashionData)
     }
     if(selected=="relevance"){
-    if(selected=="popular"){
       fashionData.sort(function(a){
         if(a.price>300)
         {
@@ -346,7 +344,6 @@ var fashionData = [
       });
       displayData(fashionData)
     }
-  }
   }
   
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
@@ -402,6 +399,8 @@ var fashionData = [
       rating.innerText=elem.rating;
       divrating2.append(rating);
       divrating.append(divrating1,divrating2);
+
+
       
   
       
@@ -461,7 +460,6 @@ var fashionData = [
       div111.append(div11,div55);
       
       box.append(fashion_avatar, fashion_brand, fashion_name,divrating, div6,div111);
-      box.append(fashion_avatar, fashion_brand, fashion_name, div6,div111);
       container.append(box);
   
     });
@@ -469,13 +467,11 @@ var fashionData = [
   function addButtonPress(elem) {
     document.querySelector("#container").innerHTML = ""
     let s = JSON.parse(localStorage.getItem("allData")) || [];
-    let s = JSON.parse(localStorage.getItem("dataone")) || [];
     // var product = [];
     // fashionArr.push(elem);
     // product.push(elem)
     s.push(elem);
     localStorage.setItem("allData", JSON.stringify(s));
-    localStorage.setItem("dataone", JSON.stringify(s));
     console.log(s)
     window.location.reload();
   }
@@ -483,7 +479,6 @@ var fashionData = [
   function press(elem) {
     document.querySelector("#container").innerHTML = ""
     let s = JSON.parse(localStorage.getItem("allData")) || [];
-    let s = JSON.parse(localStorage.getItem("dataone")) || [];
     // var product = [];
     // fashionArr.push(elem);
     // product.push(elem)
@@ -491,9 +486,6 @@ var fashionData = [
     localStorage.setItem("thisProduct", JSON.stringify(elem));
     localStorage.setItem("allData", JSON.stringify(s));
     window.location.href = "../cart/cart.html";
-    localStorage.setItem("dataone", JSON.stringify(s));
-    console.log(s)
-    window.location.href = "../Product_display&cart/index.html";
   }
   // let userdata=JSON.parse(localStorage.getItem('user'));
   // // console.log(userdata.username);
