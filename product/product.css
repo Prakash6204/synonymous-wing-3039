@@ -196,12 +196,15 @@
   justify-content: space-between;
   /* border: 1PX solid blue; */
   align-items: center;
+  margin-top: -5px;
 }
 
 .div6{
   display: flex;
   /* border: 1px solid red; */
-  gap: 20px;
+  gap: 10px;
+  padding: 5px;
+  margin-left: -3px;
 }
 .div63{
   display: flex;
@@ -209,14 +212,14 @@
 }
 .div61{
   display: flex;
-  gap: 10px;
+  gap: 5px;
   color: grey;
 }
 .rupees_paisa{
   text-decoration: line-through;
 }
 .fashion_offer{
-  color: green;
+  color: #1aab2a;
   font-size: 14px;
 }
 .rupees1{
@@ -225,6 +228,32 @@
 .add_button2{
   color: #ff6f61;
 }
+.divrating{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.divrating1{
+  display: flex;
+  background-color: #1aab2a;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 2px 4px;
+  gap: 2px;
+  border-radius: 2px;
+}
+.star{
+  margin-bottom: 3px;
+  font-size: 15px;
+}
+.rating{
+  color:rgb(95, 95, 97);
+}
+
+
 /*<!--------------------------------navbar----------->*/
 
 /*-----------fotter-----------------------------------------------------------*\

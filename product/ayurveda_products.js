@@ -1,241 +1,241 @@
 var fashionData = [
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/jmuuryvgit6mwwolt0ea/revital-h-capsule.jpg",
-      brand: "Revital H Capsule",
-      name: "bottle of 60 soft gelatin capsules",
-      rating_number:"4.4",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/fwsijrygu1vgmteufk0z/himalaya-wellness-pure-herbs-ashvagandha-tablet.jpg",
+      brand: "Himalaya Wellness Pure Herbs Ashvagandha Tablet",
+      name: "packet of 60 tablets",
+      rating_number:4.5,
       star:"★",
-      rating:"2073 ratings",
+      rating:"834 ratings",
       rupees: "₹",
-      price: 495,
+      price: 171,
       rupees2: "₹",
-      price2: 999,
-      offer: "10% OFF"
+      price2: 180,
+      offer: "5% OFF"
   
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/gmkrpf1imjj9djwvq4gq/tata-1mg-multivitamin-supreme-zinc-calcium-and-vitamin-d-immunity-booster-capsule.jpg",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/ofebdnyfexdt43pmzrmb/himalaya-wellness-pure-herbs-brahmi-mind-wellness-tablet.jpg",
   
-      brand: "Tata 1mg Multivitamin Supreme, Zinc, Calcium and Vitamin D",
-      name: "bottle of 60 capsules",
-      rating_number:"4.1",
-      star:"★",
-      rating:"948 ratings",
-      rupees: "₹",
-      price: 498,
-      rupees2: "₹",
-      price2: 995,
-      offer: "50% OFF",
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/xbhkkhnpj6gsv3xldvwq/carbamide-forte-multivitamin-sports-vegetarian-tablet.jpg",
-      brand: "Carbamide Forte Multivitamin Sports Vegetarian Tablet",
+      brand: "Himalaya Wellness Pure Herbs Brahmi Mind Wellness Tablet",
       name: "bottle of 60 tablets",
-      rating_number:"4.0",
+      rating_number:4.3,
       star:"★",
-      rating:"1000 ratings",
+      rating:"549 ratings",
       rupees: "₹",
-      price: 499,
+      price: 171,
       rupees2: "₹",
-      price2: 875,
-      offer: "43% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/omz1zuuelyaqnupl0wwe/maxirich-multivitamin-minerals-softgel.png",
-      brand: "Maxirich Multivitamin & Minerals Softgel",
-      name: "box of 30 soft gelatin capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"329 ratings",
-      rupees: "₹",
-      price: 198,
-      rupees2: "₹",
-      price2: 330,
-      offer: "10% OFF"
+      price2: 180,
+      offer: "5% OFF",
   
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/geiwxvovi2c600riqel3/wellman-health-supplement-for-men-tablet.jpg",
-      brand: "Wellman Health Supplement for Men Tablet",
-      name: "strip of 30 tablets",
-      rating_number:"4.2",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/xbqurya2hj3r6v4lhj8g/baidyanath-shankhpushpi-sarbat-daily-brain-tonic-2-in-1-offer-450-ml-with-free-220ml.png",
+      brand: "Baidyanath Shankhpushpi Sarbat Daily Brain Tonic 2-in-1 Offer",
+      name: "bottle of 450 ml Kit",
+      rating_number:4.1,
       star:"★",
-      rating:"130 ratings",
+      rating:"104 ratings",
       rupees: "₹",
-      price: 350,
+      price: 194,
       rupees2: "₹",
-      price2: 438,
-      offer: "20% OFF"
+      price2: 215,
+      offer: "9% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/aywb3kusfcv1tnyyt8qy/dr.-morepen-multi-vitamin-men-with-omega-3-herbs-natural-energy-immunity-booster-tablet.jpg",
-      brand: "Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy &",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/c5h0rjmw3hw30gsvo76h/upakarma-ayurveda-pure-shilajit.jpg",
+      brand: "Upakarma Ayurveda Pure Shilajit",
+      name: "jar of 15 gm Paste",
+      rating_number:3.6,
+      star:"★",
+      rating:"96 ratings",
+      rupees: "₹",
+      price: 899,
+      rupees2: "₹",
+      price2: 1450,
+      offer: "38% OFF"
+  
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/wtc6iza2awdhx0nxvkhr/sri-sri-tattva-ashwagandha-500mg-tablet.jpg",
+      brand: "Sri Sri Tattva Ashwagandha 500mg Tablet",
       name: "bottle of 60 tablets",
-      rating_number:"4.1",
+      rating_number:4.3,
       star:"★",
-      rating:"15 ratings",
+      rating:"620 ratings",
       rupees: "₹",
-      price: 749,
+      price: 143,
       rupees2: "₹",
-      price2: 999,
-      offer: "25% OFF"
+      price2: 150,
+      offer: "4% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/xyy0payx0kdookapcmh3/nature-s-island-multivitamin-for-men-capsule.jpg",
-      brand: "Nature's Island Multivitamin for Men Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:"4.0",
-      star:"★",
-      rating:"1000 ratings",
-      rupees: "₹",
-      price: 479,
-      rupees2: "₹",
-      price2: 999,
-      offer: "52% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/olumjmbboursowikpgh9/tata-1mg-vitamin-b-complex-capsules.jpg",
-      brand: "Tata 1mg Vitamin B Complex Capsules",
-      name: "bottle of 60 capsules",
-      rating_number:"4.7",
-      star:"★",
-      rating:"30 ratings",
-      rupees: "₹",
-      price: 448,
-      rupees2: "₹",
-      price2: 595,
-      offer: "24% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/dgcszilwgcv0dzorjzdk/muscleblaze-mb-vite-multivitamin-tablet.jpg",
-      brand: "MuscleBlaze MB-Vite Multivitamin Tablet",
-      name: "bottle of 60 capsules",
-      rating_number:"4.1",
-      star:"★",
-      rating:"103 ratings",
-      rupees: "₹",
-      price: 529,
-      rupees2: "₹",
-      price2: 699,
-      offer: "24% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/biudezibjdr0ejvz8onl/patanjali-nutrela-daily-active-capsule.jpg",
-      brand: "Patanjali Nutrela Daily Active Capsule",
-      name: "bottle of 30 capsules",
-      rating_number:"4.1",
-      star:"★",
-      rating:"379 ratings",
-      rupees: "₹",
-      price: 400,
-      rupees2: "₹",
-      price2: 799,
-      offer: "49% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/u2f4gd5o673kvaixlr2k/wellbeing-nutrition-slow-multi-for-him-capsule.jpg",
-      brand: "Wellbeing Nutrition Slow Multi for Him Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"44 ratings",
-      rupees: "₹",
-      price: 1539,
-      rupees2: "₹",
-      price2: 2199,
-      offer: "30% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/m6j6dbcf8ht96zbfqjuf/revital-h-capsule.jpg",
-      brand: "Revital H Capsule",
-      name: "bottle of 30 soft gelatin capsules",
-      rating_number:"4.3",
-      star:"★",
-      rating:"25 ratings",
-      rupees: "₹",
-      price: 273,
-      rupees2: "₹",
-      price2: 310,
-      offer: "12% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
-      brand: "HealthVit Cenvitan Men Multivitamin & Multimineral Tablet",
-      name: "bottle of 60 capsules",
-      rating_number:"3.8",
-      star:"★",
-      rating:"70 ratings",
-      rupees: "₹",
-      price: 335,
-      rupees2: "₹",
-      price2: 500,
-      offer: "33% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/ktincwpwau6hhhoyabfp/swisse-ultivite-men-s-multivitamin-tablet.jpg",
-      brand: "Swisse Ultivite Men's Multivitamin Tablet",
-      name: "bottle of 30 capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"2073 ratings",
-      rupees: "₹",
-      price: 974,
-      rupees2: "₹",
-      price2: 1299,
-      offer: "10% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/wkkptpw7ctbzmwo73mrv/wellbeing-nutrition-slow-multi-for-him-50-capsule.jpg",
-      brand: "Wellbeing Nutrition Slow Multi for Him 50+ Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:"4.2",
-      star:"★",
-      rating:"192 ratings",
-      rupees: "₹",
-      price: 1539,
-      rupees2: "₹",
-      price2: 2199,
-      offer: "30% OFF"
-    },
-  
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/pk84nhxco4mzoobfeqpr/multivite-gold-daily-health-supplement-softgels.jpg",
-      brand: "Health OK Multivitamin & Multimineral Tablet Improves",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/eyf2bzztia0j1qdlvyqc/dabur-swarna-guggulu-tablet.jpg",
+      brand: "Dabur Swarna Guggulu Tablet",
       name: "bottle of 30 tablets",
-      rating_number:"4.8",
+      rating_number:4.1,
       star:"★",
-      rating:"8 ratings",
+      rating:"48 ratings",
       rupees: "₹",
-      price: 291,
+      price: 1125,
       rupees2: "₹",
-      price2: 300,
+      price2: 1250,
+      offer: "10% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/p1rne1wmkd6la22gmbvs/baidyanath-shankhpushpi-sarbat-2-in-1-offer-220-ml-with-free-110ml.jpg",
+      brand: "Baidyanath Shankhpushpi Sarbat 2-in-1 Offer( 220 ml with Free",
+      name: "box of 1 Kit",
+      rating_number:4.1,
+      star:"★",
+      rating:"53 ratings",
+      rupees: "₹",
+      price: 110,
+      rupees2: "₹",
+      price2: 120,
+      offer: "8% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/nn3dk7vdl1yhigrv7qtr/dabur-stresscom-ashwagandha-capsule.jpg",
+      brand: "Dabur Stresscom Ashwagandha Capsule",
+      name: "box of 120 capsules",
+      rating_number:4.3,
+      star:"★",
+      rating:"80 ratings",
+      rupees: "₹",
+      price: 885,
+      rupees2: "₹",
+      price2: 912,
       offer: "3% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/f_auto,w_150,c_fit,q_auto,h_150/nuwbxucwstwy55tlk31d/health-ok-multivitamin-multimineral-tablet-improves-energy-overall-health-immunity.jpg",
-      brand: "Bewakoof",
-      name: "bottle of 60 capsules",
-      rating_number:"4.0",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/zt5mms9yofqd14tilb9o/himalaya-mentat-tablet.jpg",
+      brand: "Himalaya Mentat Tablet",
+      name: "bottle of 60 tablets",
+      rating_number:4.1,
       star:"★",
-      rating:"1000 ratings",
+      rating:"549 ratings",
+      rupees: "₹",
+      price: 125,
+      rupees2: "₹",
+      price2: 130,
+      offer: "4% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/m4stax99vxchp0v9cfmb/dhootapapeshwar-rasaraj-rasa-premium-quality-suvarnakalpa.jpg",
+      brand: "Dhootapapeshwar Rasaraj Rasa Premium Quality Suvarnakalpa",
+      name: "packet of 30 tablets",
+      rating_number:4,
+      star:"★",
+      rating:"22 ratings",
+      rupees: "₹",
+      price: 3186,
+      rupees2: "₹",
+      price2: 3813,
+      offer: "16% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/v6apzm1ten1cr3xqm5ca/baidyanath-sarswatarista.jpg",
+      brand: "Baidyanath Sarswatarista",
+      name: "bottle of 450 ml Liquid",
+      rating_number:4.3,
+      star:"★",
+      rating:"60 ratings",
+      rupees: "₹",
+      price: 191,
+      rupees2: "₹",
+      price2: 208,
+      offer: "8% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/9590aa206d9b44d0ac5c98988f18c344/maharishi-ayurveda-combo-of-amrit-kalash-60-tablets-600gm-paste.jpg",
+      brand: "Maharishi Ayurveda Combo of Amrit Kalash 60 Tablets & 600g",
+      name: "combo pack of 2 Packs",
+      rating_number:4,
+      star:"★",
+      rating:"16 ratings",
+      rupees: "₹",
+      price: 1589,
+      rupees2: "₹",
+      price2: 2100,
+      offer: "24% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/sz50zudwhkmwoehmb3qa/baidyanath-ashwagandhadi-churna-for-general-debility.jpg",
+      brand: "Baidyanath Ashwagandhadi Churna for General Debility",
+      name: "jar of 100 gm Churna",
+      rating_number:4.4,
+      star:"★",
+      rating:"31 ratings",
+      rupees: "₹",
+      price: 129,
+      rupees2: "₹",
+      price2: 140,
+      offer: "8% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/zoqhprcoewmtjn0g9n0k/sri-sri-tattva-brahma-rasayana.jpg",
+      brand: "Sri Sri Tattva Brahma Rasayana",
+      name: "jar of 250 gm Paste",
+      rating_number:4.4,
+      star:"★",
+      rating:"9 ratings",
+      rupees: "₹",
+      price: 152,
+      rupees2: "₹",
+      price2: 160,
+      offer: "5% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/zxmgoisxykokm8zobrhp/dabur-ashwagandharishta.jpg",
+      brand: "Dabur Ashwagandharishta",
+      name: "bottle of 680 ml Liquid",
+      rating_number:3.8,
+      star:"★",
+      rating:"129 ratings",
+      rupees: "₹",
+      price: 280,
+      rupees2: "₹",
+      price2: 300,
+      offer: "5% OFF"
+    },
+  
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/xwhdpbdpayyc7mdyjdyi/kerala-ayurveda-brahmi-pearls-capsule.png",
+      brand: "Kerala Ayurveda Brahmi Pearls Capsule",
+      name: "packet of 40 capsules",
+      rating_number:4.4,
+      star:"★",
+      rating:"47 ratings",
+      rupees: "₹",
+      price: 266,
+      rupees2: "₹",
+      price2: 340,
+      offer: "21% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/baq7muruv13assoanxuz/organic-india-ashwagandha-veg-capsule.jpg",
+      brand: "Organic India Ashwagandha Veg Capsule",
+      name: "bottle of 60 capsules",
+      rating_number:4.4,
+      star:"★",
+      rating:"315 ratings",
       rupees: "₹",
       price: 299,
       rupees2: "₹",
@@ -244,59 +244,59 @@ var fashionData = [
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/qz7pwtyehvdnoj9piuux/absolut-3g-soft-gelatin-capsule.jpg",
-      brand: "Absolut 3G Soft Gelatin Capsule",
-      name: "strip of 10 soft gelatin capsules",
-      rating_number:"4.1",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/ndemo2lhbtadzcbaq1sk/dabur-saraswatarishta.png",
+      brand: "Dabur Saraswatarishta",
+      name: "bottle of 450 ml Liquid",
+      rating_number:4.5,
       star:"★",
-      rating:"132 ratings",
+      rating:"312 ratings",
       rupees: "₹",
-      price: 170,
+      price: 185,
       rupees2: "₹",
-      price2: 196,
-      offer: "13% OFF"
+      price2: 205,
+      offer: "9% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/grcvrktohcvunrfvytzd/healthkart-hk-vitals-multivitamin-multimineral-amino-acids-taurine-ginseng-extract-tablet.jpg",
-      brand: "HealthKart HK Vitals Multivitamin Multimineral, Amino Acids ,Taurine",
-      name: "bottle of 90 capsules",
-      rating_number:"4.4",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/enzkqpb9iatoekbukagn/zeroharm-sciences-holistic-curcumin-tablet-for-skin-joint-support-and-anxiety.jpg",
+      brand: "Zeroharm Sciences Holistic Curcumin Tablet for Skin, Joint",
+      name: "bottle of 60 tablets",
+      rating_number:4.4,
       star:"★",
-      rating:"358 ratings",
+      rating:"367 ratings",
       rupees: "₹",
-      price: 549,
+      price: 1199,
       rupees2: "₹",
-      price2: 950,
-      offer: "42% OFF"
+      price2: 1450,
+      offer: "17% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/aywb3kusfcv1tnyyt8qy/dr.-morepen-multi-vitamin-men-with-omega-3-herbs-natural-energy-immunity-booster-tablet.jpg",
-      brand: "Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy",
-      name: "bottle of 60 capsules",
-      rating_number:"4.2",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/iutlj4zjsxfgrz4nlnnw/dabur-ashwagandha-churna.jpg",
+      brand: "Dabur Ashwagandha Churna",
+      name: "jar of 100 gm Churna",
+      rating_number:4.4,
       star:"★",
-      rating:"18 ratings",
+      rating:"315 ratings",
       rupees: "₹",
-      price: 749,
+      price: 133,
       rupees2: "₹",
-      price2: 999,
-      offer: "25% OFF"
+      price2: 140,
+      offer: "5% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/spizxusftb2bun7ku0ic/multivite-fm-omega-multimineral-multivitamin-supplement-capsule.jpg",
-      brand: "Multivite FM Omega Multimineral & Multivitamin Supplement Capsule",
-      name: "bottle of 30 capsules",
-      rating_number:"4.3",
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/yvwpfrrtvzf8wbr0gihe/dabur-brahmi-vati.png",
+      brand: "Dabur Brahmi Vati",
+      name: "bottle of 40 tablets",
+      rating_number:4.3,
       star:"★",
-      rating:"138 ratings",
+      rating:"154 ratings",
       rupees: "₹",
-      price: 84,
+      price: 121,
       rupees2: "₹",
-      price2: 98,
-      offer: "14% OFF"
+      price2: 127,
+      offer: "4% OFF"
     },
   
   
@@ -346,7 +346,6 @@ var fashionData = [
       displayData(fashionData)
     }
   }
-  
   //fashionArr=JSON.parse(localStorage.getItem("dataone"))||[];
   
   displayData(fashionData)
