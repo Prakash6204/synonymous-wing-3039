@@ -35,7 +35,7 @@ body {
     height: 180px;
     width: 100%;
     box-sizing: border-box;
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
     border-radius: 0px 0px 15px 15px;
     margin-bottom: 0;
   }
@@ -44,7 +44,7 @@ body {
   }
   form > input {
     width: 100%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin-bottom: 20px;
     font-size: 18px;
     padding: 5px;
@@ -59,10 +59,10 @@ body {
     padding: 20px 50px;
     margin-bottom: 0px;
   }
-  input:focus {
+  /* input:focus {
     box-shadow: crimson 0px 0px 0px 2px, crimson 0px 4px 6px -1px,
       crimson 0px 1px 0px inset;
-  }
+  } */
   #submit:hover {
     background-color: #ff6051;
   }
@@ -90,4 +90,23 @@ body {
   #error {
     color: red;
     font-size: 14px;
+  }
+  #account{
+    width: 100%;
+    height: 98%;
+    box-sizing: border-box;
+    /* border: pink 2px solid; */
+    border-left: none;
+    padding: 15px 15%;
+    
+
+  }
+  #account>p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+
+  }
+  #account>div>p{
+    text-align: center;
   }

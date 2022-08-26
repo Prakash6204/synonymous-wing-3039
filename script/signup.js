@@ -81,7 +81,9 @@ resume = () => {
 let form = document.querySelector(".form");
     let userData = JSON.parse(localStorage.getItem("userData")) || [];
     
-    form.addEventListener("submit",function(event){
+    form.addEventListener("submit",fun)
+    function fun(event)
+    {
         event.preventDefault();
         let data={
             
@@ -89,6 +91,7 @@ let form = document.querySelector(".form");
             password:form.password.value,
            
         }
+        console.log(data)
         if(checkEmails(data.email)===true){
             alert("Sign UP Sucessfull")
             window.location.href="login.html"
@@ -98,7 +101,7 @@ let form = document.querySelector(".form");
             window.location.href="login.html"
             alert("Account Already Exists");
         }
-    })
+    }
 
     function checkEmails(email){
         let filtered = userData.filter(function(element){
