@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="flutter.css" />
-  </head>
-  <body>
-    <hr style="color: lightgreay" />
+function sendLink(){
+    alert("App link send on your phone")
+}
+function flutter(){
+    return ` <hr style="color: lightgreay" />
     <div id="flutter_man_div">
       <div id="flutter_head">
         <div id="top_heading">
@@ -169,7 +163,7 @@
       India's only LegitScript and ISO/ IEC 27001 certified online healthcare
       platform
     </div>
-    <div class="bottom_text_information"></div>
-  </body>
-</html>
-<script src="futter.js"></script>
+    <div class="bottom_text_information"></div>`
+}
+export default flutter
+document.getElementById("flutter").innerHTML=flutter()
