@@ -66,3 +66,45 @@ resume = () => {
     plusSlides(slideIndex);
   }, 3000);
 };
+
+
+
+
+// let gogl = document.querySelector("#gogl");
+// gogl.addEventListener("click",function(){
+//     window.location.href = "signup.html"
+// })
+let form = document.querySelector(".form");
+// let login = document.querySelector("#login");
+    let userData = JSON.parse(localStorage.getItem("userData")) || [];
+    console.log( userData)
+
+    login.addEventListener("click",fun)
+    function fun(event){
+
+    
+        event.preventDefault();
+        console.log("hello")
+        
+            email=form.mobile.value,
+            password=form.password.value,
+      
+            userData.forEach((element)=>{
+              if(element.email==email&&element.password==password)
+              {
+                
+                alert("Your sign in successfull!");
+                
+                  window.location.href="index.html"
+                
+          
+                
+              }
+              
+          
+              
+             
+            
+            });
+          }
+            

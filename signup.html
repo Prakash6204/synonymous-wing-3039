@@ -88,18 +88,19 @@
         </div>
         <div id="account"> 
           <h1>Sign up</h1>
-        <form>
+        <form class="form">
            
-            <input type="text" placeholder="Enter Mobile Number" id="mobile">
-            <input type="text" placeholder="Enter password" id="password">
-            <button id="login" onclick="login(event)">Signup</button>
-          </form>
+            <input type="text" name="mobile"placeholder="Enter Mobile Number" id="mobile">
+            <input type="text" name="password" placeholder="Enter password" id="password">
+            <button id="signup" onclick="signup(event)">Signup</button>
+        
           
           <div>
             <div>
                 <p>
                   New on 1mg?
-                  <span class="a_orange" id="signup_span">Sign Up</span>
+                 
+                  <a href="signup.html" class="a_orange" id="signup_span">signup</a>
                 </p>
                 <p>
                   Have a corporate account?
@@ -115,6 +116,7 @@
                   >Need help? Get In Touch</a
                 >
               </p>
+            </form>
           </div>
         </div>
         
