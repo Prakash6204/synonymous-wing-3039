@@ -1,4 +1,4 @@
-var array=JSON.parse(localStorage.getItem("dataone"))
+var array=JSON.parse(localStorage.getItem("allData"))
 console.log(array)
 
 //     let empty_arr = [];
@@ -88,7 +88,7 @@ document
   });
 
 document.querySelector("#mg_home").addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = "../home_page/index.html";
 });
 document.querySelector("#need_help").addEventListener("click", () => {
   window.location.href = "NeedHelp.html";

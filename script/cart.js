@@ -23,7 +23,7 @@ function check()
 
 
 
-var array=JSON.parse(localStorage.getItem("dataone"))
+var array=JSON.parse(localStorage.getItem("allData"))
 console.log(array)
 let cont=document.getElementById("cont")
 let sum=0;
@@ -216,39 +216,7 @@ var que=[ {
       price2: 999,
       offer: "25% OFF"
     },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/xyy0payx0kdookapcmh3/nature-s-island-multivitamin-for-men-capsule.jpg",
-      brand: "Nature's Island Multivitamin for Men Capsule",
-      name: "bottle of 60 capsules",
-      rupees: "₹",
-      price: 479,
-      rupees2: "₹",
-      price2: 999,
-      offer: "52% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/olumjmbboursowikpgh9/tata-1mg-vitamin-b-complex-capsules.jpg",
-      brand: "Tata 1mg Vitamin B Complex Capsules",
-      name: "bottle of 60 capsules",
-      rupees: "₹",
-      price: 448,
-      rupees2: "₹",
-      price2: 595,
-      offer: "24% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/dgcszilwgcv0dzorjzdk/muscleblaze-mb-vite-multivitamin-tablet.jpg",
-      brand: "MuscleBlaze MB-Vite Multivitamin Tablet",
-      name: "bottle of 60 capsules",
-      rupees: "₹",
-      price: 529,
-      rupees2: "₹",
-      price2: 699,
-      offer: "24% OFF"
-    },
+    
 ]
 let cont1=document.getElementById("adv")
 let app=(que,cont1)=>{
@@ -278,7 +246,7 @@ que.forEach((el)=>{
     }
     div1.append(img)
     div.append(div1,h4,p1,p2,button)
-    cont.append(div)
+    cont1.append(div)
 
 
 })

@@ -66,3 +66,8 @@ resume = () => {
     plusSlides(slideIndex);
   }, 3000);
 };
+
+import navbar from "../components/navbar.js"
+document.getElementById("navbar").innerHTML=navbar()
+import flutter from "../components/flutter.js"
+document.getElementById("flutter").innerHTML="hello"

@@ -1,304 +1,301 @@
 var fashionData = [
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/jmuuryvgit6mwwolt0ea/revital-h-capsule.jpg",
-      brand: "Revital H Capsule",
-      name: "bottle of 60 soft gelatin capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"2073 ratings",
-      rupees: "₹",
-      price: 495,
-      rupees2: "₹",
-      price2: 999,
-      offer: "10% OFF"
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/gmkrpf1imjj9djwvq4gq/tata-1mg-multivitamin-supreme-zinc-calcium-and-vitamin-d-immunity-booster-capsule.jpg",
-  
-      brand: "Tata 1mg Multivitamin Supreme, Zinc, Calcium and Vitamin D",
-      name: "bottle of 60 capsules",
-      rating_number:"4.1",
-      star:"★",
-      rating:"948 ratings",
-      rupees: "₹",
-      price: 498,
-      rupees2: "₹",
-      price2: 995,
-      offer: "50% OFF",
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/xbhkkhnpj6gsv3xldvwq/carbamide-forte-multivitamin-sports-vegetarian-tablet.jpg",
-      brand: "Carbamide Forte Multivitamin Sports Vegetarian Tablet",
-      name: "bottle of 60 tablets",
-      rating_number:"4.0",
-      star:"★",
-      rating:"1000 ratings",
-      rupees: "₹",
-      price: 499,
-      rupees2: "₹",
-      price2: 875,
-      offer: "43% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/omz1zuuelyaqnupl0wwe/maxirich-multivitamin-minerals-softgel.png",
-      brand: "Maxirich Multivitamin & Minerals Softgel",
-      name: "box of 30 soft gelatin capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"329 ratings",
-      rupees: "₹",
-      price: 198,
-      rupees2: "₹",
-      price2: 330,
-      offer: "10% OFF"
-  
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/geiwxvovi2c600riqel3/wellman-health-supplement-for-men-tablet.jpg",
-      brand: "Wellman Health Supplement for Men Tablet",
-      name: "strip of 30 tablets",
-      rating_number:"4.2",
-      star:"★",
-      rating:"130 ratings",
-      rupees: "₹",
-      price: 350,
-      rupees2: "₹",
-      price2: 438,
-      offer: "20% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/aywb3kusfcv1tnyyt8qy/dr.-morepen-multi-vitamin-men-with-omega-3-herbs-natural-energy-immunity-booster-tablet.jpg",
-      brand: "Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy &",
-      name: "bottle of 60 tablets",
-      rating_number:"4.1",
-      star:"★",
-      rating:"15 ratings",
-      rupees: "₹",
-      price: 749,
-      rupees2: "₹",
-      price2: 999,
-      offer: "25% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/xyy0payx0kdookapcmh3/nature-s-island-multivitamin-for-men-capsule.jpg",
-      brand: "Nature's Island Multivitamin for Men Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:"4.0",
-      star:"★",
-      rating:"1000 ratings",
-      rupees: "₹",
-      price: 479,
-      rupees2: "₹",
-      price2: 999,
-      offer: "52% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/olumjmbboursowikpgh9/tata-1mg-vitamin-b-complex-capsules.jpg",
-      brand: "Tata 1mg Vitamin B Complex Capsules",
-      name: "bottle of 60 capsules",
-      rating_number:"4.7",
-      star:"★",
-      rating:"30 ratings",
-      rupees: "₹",
-      price: 448,
-      rupees2: "₹",
-      price2: 595,
-      offer: "24% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/dgcszilwgcv0dzorjzdk/muscleblaze-mb-vite-multivitamin-tablet.jpg",
-      brand: "MuscleBlaze MB-Vite Multivitamin Tablet",
-      name: "bottle of 60 capsules",
-      rating_number:"4.1",
-      star:"★",
-      rating:"103 ratings",
-      rupees: "₹",
-      price: 529,
-      rupees2: "₹",
-      price2: 699,
-      offer: "24% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/biudezibjdr0ejvz8onl/patanjali-nutrela-daily-active-capsule.jpg",
-      brand: "Patanjali Nutrela Daily Active Capsule",
-      name: "bottle of 30 capsules",
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cpg2u1iaffc5aqas8uyq/tata-1mg-bis-approved-ffp2-n95-mask-white-ear-loop-5-layer.jpg",
+      brand: "Tata 1mg BIS Approved FFP2 N95 Mask White - Ear Loop 5 Layer",
+      name: "box of 2 masks",
       rating_number:"4.1",
       star:"★",
       rating:"379 ratings",
       rupees: "₹",
-      price: 400,
+      price: 81,
       rupees2: "₹",
-      price2: 799,
+      price2: 160,
       offer: "49% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/u2f4gd5o673kvaixlr2k/wellbeing-nutrition-slow-multi-for-him-capsule.jpg",
-      brand: "Wellbeing Nutrition Slow Multi for Him Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"44 ratings",
-      rupees: "₹",
-      price: 1539,
-      rupees2: "₹",
-      price2: 2199,
-      offer: "30% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/m6j6dbcf8ht96zbfqjuf/revital-h-capsule.jpg",
-      brand: "Revital H Capsule",
-      name: "bottle of 30 soft gelatin capsules",
-      rating_number:"4.3",
-      star:"★",
-      rating:"25 ratings",
-      rupees: "₹",
-      price: 273,
-      rupees2: "₹",
-      price2: 310,
-      offer: "12% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/a7xr3jsvuophvvsn7yua/healthvit-cenvitan-men-multivitamin-multimineral-tablet.jpg",
-      brand: "HealthVit Cenvitan Men Multivitamin & Multimineral Tablet",
-      name: "bottle of 60 capsules",
-      rating_number:"3.8",
-      star:"★",
-      rating:"70 ratings",
-      rupees: "₹",
-      price: 335,
-      rupees2: "₹",
-      price2: 500,
-      offer: "33% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/ktincwpwau6hhhoyabfp/swisse-ultivite-men-s-multivitamin-tablet.jpg",
-      brand: "Swisse Ultivite Men's Multivitamin Tablet",
-      name: "bottle of 30 capsules",
-      rating_number:"4.4",
-      star:"★",
-      rating:"2073 ratings",
-      rupees: "₹",
-      price: 974,
-      rupees2: "₹",
-      price2: 1299,
-      offer: "10% OFF"
-    },
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/wkkptpw7ctbzmwo73mrv/wellbeing-nutrition-slow-multi-for-him-50-capsule.jpg",
-      brand: "Wellbeing Nutrition Slow Multi for Him 50+ Capsule",
-      name: "bottle of 60 capsules",
-      rating_number:"4.2",
-      star:"★",
-      rating:"192 ratings",
-      rupees: "₹",
-      price: 1539,
-      rupees2: "₹",
-      price2: 2199,
-      offer: "30% OFF"
-    },
   
-    {
-      avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/pk84nhxco4mzoobfeqpr/multivite-gold-daily-health-supplement-softgels.jpg",
-      brand: "Health OK Multivitamin & Multimineral Tablet Improves",
-      name: "bottle of 30 tablets",
-      rating_number:"4.8",
-      star:"★",
-      rating:"8 ratings",
-      rupees: "₹",
-      price: 291,
-      rupees2: "₹",
-      price2: 300,
-      offer: "3% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/f_auto,w_150,c_fit,q_auto,h_150/nuwbxucwstwy55tlk31d/health-ok-multivitamin-multimineral-tablet-improves-energy-overall-health-immunity.jpg",
-      brand: "Bewakoof",
-      name: "bottle of 60 capsules",
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kn3t8i4k9uqcly3n2aif/omron-hem8712-bp-monitor.jpg",
+      brand: "Omron HEM8712 BP Monitor",
+      name: "box of 1 Unit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"484 ratings",
+      rupees: "₹",
+      price: 1938,
+      rupees2: "₹",
+      price2: 2640,
+      offer: "26% OFF",
+  
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kvj2s20yfo4z7khpkuvl/quarant-kids-3-ply-surgical-mask-50-each-blue.jpg",
+      brand: "Quarant Kids 3 Ply Surgical Mask (50 Each) Blue",
+      name: "box of 1 Pack",
       rating_number:"4.0",
       star:"★",
       rating:"1000 ratings",
       rupees: "₹",
       price: 299,
       rupees2: "₹",
-      price2: 1099,
-      offer: "10% OFF"
+      price2: 500,
+      offer: "40% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/qz7pwtyehvdnoj9piuux/absolut-3g-soft-gelatin-capsule.jpg",
-      brand: "Absolut 3G Soft Gelatin Capsule",
-      name: "strip of 10 soft gelatin capsules",
-      rating_number:"4.1",
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/v4dwyzdykvnz0gntvg1g/tata-1mg-latex-non-sterile-gloves.jpg",
+      brand: "Tata 1mg Latex Non-Sterile Gloves",
+      name: "box of 50 Gloves",
+      rating_number:"4.6",
       star:"★",
-      rating:"132 ratings",
+      rating:"32 ratings",
       rupees: "₹",
-      price: 170,
+      price: 249,
       rupees2: "₹",
-      price2: 196,
-      offer: "13% OFF"
+      price2: 450,
+      offer: "44% OFF"
+  
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/grcvrktohcvunrfvytzd/healthkart-hk-vitals-multivitamin-multimineral-amino-acids-taurine-ginseng-extract-tablet.jpg",
-      brand: "HealthKart HK Vitals Multivitamin Multimineral, Amino Acids ,Taurine",
-      name: "bottle of 90 capsules",
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/vuvbtuztcjbxowjahl3z/accu-chek-active-blood-glucometer-kit-box-of-10-test-strips-free.jpg",
+      brand: "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test",
+      name: "packet of 1 Kit",
+      rating_number:"4",
+      star:"★",
+      rating:"1001 ratings",
+      rupees: "₹",
+      price: 1319,
+      rupees2: "₹",
+      price2: 1599,
+      offer: "17% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/gzsf62jsu5mll2hmuroi/tata-1mg-knee-support-pair-of-2-medium.jpg",
+      brand: "Tata 1mg Knee Support Pair of 2 Medium",
+      name: "combo pack of 2 units",
+      rating_number:"4.3",
+      star:"★",
+      rating:"94 ratings",
+      rupees: "₹",
+      price: 226,
+      rupees2: "₹",
+      price2: 300,
+      offer: "24% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kpe9etn4nzuxkl6hzrch/quarant-3-ply-protective-face-mask-100-each-black.jpg",
+      brand: "Quarant 3 Ply Protective Face Mask (100 Each) Black",
+      name: "box of 1 Pack",
+      rating_number:"4.8",
+      star:"★",
+      rating:"5 ratings",
+      rupees: "₹",
+      price: 429,
+      rupees2: "₹",
+      price2: 1200,
+      offer: "64% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/svd6zqkxakoezsaqyxqp/goqii-smart-vital-fitness-spo2-tracker-with-3-months-personal-coaching-subscription.png",
+      brand: "GOQii Smart Vital Fitness SpO2 Tracker with 3 Months Personal",
+      name: "box of 1 Unit",
+      rating_number:"4",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 5759,
+      rupees2: "₹",
+      price2: 5999,
+      offer: "4% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/pc0kfczcu5phbkk5sy41/dr-morepen-gluco-one-bg-03-blood-glucose-test-strip.jpg",
+      brand: "Dr Morepen Gluco One BG 03 Blood Glucose Test Strip",
+      name: "box of 50 Test Strips",
       rating_number:"4.4",
       star:"★",
-      rating:"358 ratings",
+      rating:"6207 ratings",
       rupees: "₹",
-      price: 549,
+      price: 628,
       rupees2: "₹",
-      price2: 950,
-      offer: "42% OFF"
+      price2: 849,
+      offer: "26% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/aywb3kusfcv1tnyyt8qy/dr.-morepen-multi-vitamin-men-with-omega-3-herbs-natural-energy-immunity-booster-tablet.jpg",
-      brand: "Dr. Morepen Multi Vitamin Men with Omega 3 & Herbs, Natural Energy",
-      name: "bottle of 60 capsules",
-      rating_number:"4.2",
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/dk4bsseilzpnfr953q7e/omron-cms50n-contec-pulse-oximeter.png",
+      brand: "Omron CMS50N Contec Pulse Oximeter",
+      name: "box of 1 Unit",
+      rating_number:"3.8",
       star:"★",
-      rating:"18 ratings",
+      rating:"263 ratings",
       rupees: "₹",
-      price: 749,
+      price: 1299,
       rupees2: "₹",
-      price2: 999,
+      price2: 1748,
       offer: "25% OFF"
     },
     {
       avatar:
-        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/spizxusftb2bun7ku0ic/multivite-fm-omega-multimineral-multivitamin-supplement-capsule.jpg",
-      brand: "Multivite FM Omega Multimineral & Multivitamin Supplement Capsule",
-      name: "bottle of 30 capsules",
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/sqpxiybvn36cnqnq0wnz/quarant-4-ply-activated-carbon-nanosilver-surgical-face-mask-with-self-sanitizing-grey.jpg",
+      brand: "Quarant 4 Ply Activated Carbon Nanosilver Surgical Face Mask wit",
+      name: "box of 50 masks",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 479,
+      rupees2: "₹",
+      price2: 1000,
+      offer: "52% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/pq9kpnup8oubjoihzhmw/tata-1mg-blood-pressure-monitor-fully-automatic.jpg",
+      brand: "Tata 1mg Blood Pressure Monitor Fully Automatic",
+      name: "box of 1 Unit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"128 ratings",
+      rupees: "₹",
+      price: 1463,
+      rupees2: "₹",
+      price2: 1540,
+      offer: "5% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/fnnbetu2wvz56ehdyblo/coviself-covid-19-rapid-antigen-self-test-kit.jpg",
+      brand: "CoviSelf Covid 19 Rapid Antigen Self Test Kit",
+      name: "packet of 1 Self Test Kit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"308 ratings",
+      rupees: "₹",
+      price: 176,
+      rupees2: "₹",
+      price2: 250,
+      offer: "29% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/i9qxdbmdngqric7qiib0/onetouch-verio-test-strip.jpg",
+      brand: "OneTouch Verio Test Strip",
+      name: "box of 50 Test Strips",
+      rating_number:"4.5",
+      star:"★",
+      rating:"593 ratings",
+      rupees: "₹",
+      price: 1040,
+      rupees2: "₹",
+      price2: 1095,
+      offer: "5% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/alaxemnemhujdiaqwqxs/quarant-mask-4-ply-designer-protective-face-prism-print-multicolor.jpg",
+      brand: "Quarant Mask 4 Ply Designer Protective Face Prism Print",
+      name: "packet of 50 masks",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 449,
+      rupees2: "₹",
+      price2: 1000,
+      offer: "55% OFF"
+    },
+  
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/tq2tdez2rmtqy6r5nvin/vissco-cycle-exerciser-1015.jpg",
+      brand: "Vissco Cycle Exerciser-1015",
+      name: "box of 1 Unit",
       rating_number:"4.3",
       star:"★",
-      rating:"138 ratings",
-      brand: "Organic India Ashwagandha Veg Capsule",
-      name: "bottle of 180 vegicaps",
+      rating:"15 ratings",
       rupees: "₹",
-      price: 515,
+      price: 1797,
       rupees2: "₹",
-      price2: 585,
-      offer: "12% OFF"
+      price2: 2405,
+      offer: "25% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/u9odvhwfngsrshfpdmj8/tynor-d-10-r.o.m.-knee-brace-universal.jpg",
+      brand: "Tynor D 10 R.O.M. Knee Brace Universal",
+      name: "box of 1 Unit",
+      rating_number:"3.2",
+      star:"★",
+      rating:"67 ratings",
+      rupees: "₹",
+      price: 1928,
+      rupees2: "₹",
+      price2: 2410,
+      offer: "20% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/zf1lkgpcmf9cwlv5lrui/dr-morepen-blood-pressure-monitor-bp-09.jpg",
+      brand: "Dr Morepen Blood Pressure Monitor BP 09",
+      name: "box of 1 Unit",
+      rating_number:"3.8",
+      star:"★",
+      rating:"297 ratings",
+      rupees: "₹",
+      price: 1205,
+      rupees2: "₹",
+      price2: 1565,
+      offer: "23% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/szy3ojcgktpqabzfbiog/quarant-4-ply-designer-protective-face-mask-mask-camo-print-black.jpg",
+      brand: "Quarant 4 Ply Designer Protective Face Mask Mask Camo print Black",
+      name: "packet of 50 masks",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 429,
+      rupees2: "₹",
+      price2: 1000,
+      offer: "57% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/tlnln5nlw238f310zzrj/accu-chek-active-test-strip.jpg",
+      brand: "Accu-Chek Active Test Strip",
+      name: "box of 50 Test Strips",
+      rating_number:"4.3",
+      star:"★",
+      rating:"4811 ratings",
+      rupees: "₹",
+      price: 996,
+      rupees2: "₹",
+      price2: 1049,
+      offer: "5% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/cropped/oazosjs1jw0xpc8gdn7r/omron-mc-246-thermometer.png",
+      brand: "Omron MC-246 Thermometer",
+      name: "packet of 1 Unit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"345 ratings",
+      rupees: "₹",
+      price: 261,
+      rupees2: "₹",
+      price2: 275,
+      offer: "5% OFF"
     },
   
   
@@ -402,6 +399,8 @@ var fashionData = [
       rating.innerText=elem.rating;
       divrating2.append(rating);
       divrating.append(divrating1,divrating2);
+
+
       
   
       
@@ -495,3 +494,8 @@ var fashionData = [
   // document.querySelector('#signin').style.display="none"
   // document.querySelector('#heart').style.display="none"
   // }
+
+  import navbar from "../components/navbar.js"
+document.getElementById("navbar").innerHTML=navbar()
+import flutter from "../components/flutter.js"
+document.getElementById("flutter").innerHTML=flutter()
