@@ -92,8 +92,17 @@ let form = document.querySelector(".form");
             userData.forEach((element)=>{
               if(element.email==email&&element.password==password)
               {
-                swal("Good job!", "You clicked the button!", "success");
+                
+                alert("Your sign in successfull!");
+                
+                  window.location.href="index.html"
+                
+          
+                
               }
+              
+          
+              
              
             
             });
