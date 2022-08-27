@@ -300,6 +300,49 @@ var fashionData = [
       price2: 585,
       offer: "12% OFF"
     },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/xbhkkhnpj6gsv3xldvwq/carbamide-forte-multivitamin-sports-vegetarian-tablet.jpg",
+      brand: "Carbamide Forte Multivitamin Sports Vegetarian Tablet",
+      name: "bottle of 60 tablets",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 499,
+      rupees2: "₹",
+      price2: 875,
+      offer: "43% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/cropped/omz1zuuelyaqnupl0wwe/maxirich-multivitamin-minerals-softgel.png",
+      brand: "Maxirich Multivitamin & Minerals Softgel",
+      name: "box of 30 soft gelatin capsules",
+      rating_number:"4.4",
+      star:"★",
+      rating:"329 ratings",
+      rupees: "₹",
+      price: 198,
+      rupees2: "₹",
+      price2: 330,
+      offer: "10% OFF"
+  
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/c_fit,q_auto,w_150,f_auto,h_150/geiwxvovi2c600riqel3/wellman-health-supplement-for-men-tablet.jpg",
+      brand: "Wellman Health Supplement for Men Tablet",
+      name: "strip of 30 tablets",
+      rating_number:"4.2",
+      star:"★",
+      rating:"130 ratings",
+      rupees: "₹",
+      price: 350,
+      rupees2: "₹",
+      price2: 438,
+      offer: "20% OFF"
+    },
   
   
   ];

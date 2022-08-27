@@ -88,8 +88,8 @@ document
   });
 
 document.querySelector("#mg_home").addEventListener("click", () => {
-  window.location.href = "../home_page/index.html";
+  window.location.href = "./index.html";
 });
-document.querySelector("#need_help").addEventListener("click", () => {
-  window.location.href = "NeedHelp.html";
-});
+// document.querySelector("#need_help").addEventListener("click", () => {
+//   window.location.href = "NeedHelp.html";
+// });
