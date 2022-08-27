@@ -298,6 +298,48 @@ var fashionData = [
       price2: 127,
       offer: "4% OFF"
     },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/nn3dk7vdl1yhigrv7qtr/dabur-stresscom-ashwagandha-capsule.jpg",
+      brand: "Dabur Stresscom Ashwagandha Capsule",
+      name: "box of 120 capsules",
+      rating_number:4.3,
+      star:"★",
+      rating:"80 ratings",
+      rupees: "₹",
+      price: 885,
+      rupees2: "₹",
+      price2: 912,
+      offer: "3% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/zt5mms9yofqd14tilb9o/himalaya-mentat-tablet.jpg",
+      brand: "Himalaya Mentat Tablet",
+      name: "bottle of 60 tablets",
+      rating_number:4.1,
+      star:"★",
+      rating:"549 ratings",
+      rupees: "₹",
+      price: 125,
+      rupees2: "₹",
+      price2: 130,
+      offer: "4% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/h_150,f_auto,c_fit,w_150,q_auto/cropped/m4stax99vxchp0v9cfmb/dhootapapeshwar-rasaraj-rasa-premium-quality-suvarnakalpa.jpg",
+      brand: "Dhootapapeshwar Rasaraj Rasa Premium Quality Suvarnakalpa",
+      name: "packet of 30 tablets",
+      rating_number:4,
+      star:"★",
+      rating:"22 ratings",
+      rupees: "₹",
+      price: 3186,
+      rupees2: "₹",
+      price2: 3813,
+      offer: "16% OFF"
+    },
   
   
   ];

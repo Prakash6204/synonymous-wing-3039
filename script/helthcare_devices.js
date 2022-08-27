@@ -297,7 +297,50 @@ var fashionData = [
       price2: 275,
       offer: "5% OFF"
     },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kn3t8i4k9uqcly3n2aif/omron-hem8712-bp-monitor.jpg",
+      brand: "Omron HEM8712 BP Monitor",
+      name: "box of 1 Unit",
+      rating_number:"4.1",
+      star:"★",
+      rating:"484 ratings",
+      rupees: "₹",
+      price: 1938,
+      rupees2: "₹",
+      price2: 2640,
+      offer: "26% OFF",
   
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/kvj2s20yfo4z7khpkuvl/quarant-kids-3-ply-surgical-mask-50-each-blue.jpg",
+      brand: "Quarant Kids 3 Ply Surgical Mask (50 Each) Blue",
+      name: "box of 1 Pack",
+      rating_number:"4.0",
+      star:"★",
+      rating:"1000 ratings",
+      rupees: "₹",
+      price: 299,
+      rupees2: "₹",
+      price2: 500,
+      offer: "40% OFF"
+    },
+    {
+      avatar:
+        "https://onemg.gumlet.io/images/f_auto,h_150,w_150,c_fit,q_auto/v4dwyzdykvnz0gntvg1g/tata-1mg-latex-non-sterile-gloves.jpg",
+      brand: "Tata 1mg Latex Non-Sterile Gloves",
+      name: "box of 50 Gloves",
+      rating_number:"4.6",
+      star:"★",
+      rating:"32 ratings",
+      rupees: "₹",
+      price: 249,
+      rupees2: "₹",
+      price2: 450,
+      offer: "44% OFF"
+  
+    },
   
   ];
   function handlePriceSort() {

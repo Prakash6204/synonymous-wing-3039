@@ -129,19 +129,19 @@ append(array,cont)
 function dec(el,i)
 {
 array.splice(i,1)
-localStorage.setItem("dataone",JSON.stringify(array))
+localStorage.setItem("allData",JSON.stringify(array))
 window.location.reload();
 }
 function inc(el,i)
 {
     array.push(el)
-    localStorage.setItem("dataone",JSON.stringify(array))
+    localStorage.setItem("allData",JSON.stringify(array))
     window.location.reload();
 }
 function mun(el,i)
 {
 array.splice(i,1)
-localStorage.setItem("dataone",JSON.stringify(array))
+localStorage.setItem("allData",JSON.stringify(array))
 window.location.reload();
 }
 
@@ -255,7 +255,7 @@ que.forEach((el)=>{
 function Add(el)
 {
     array.push(el)
-    localStorage.setItem("dataone",JSON.stringify(array))
+    localStorage.setItem("allData",JSON.stringify(array))
     window.location.reload()
 }
 app(que,cont1)

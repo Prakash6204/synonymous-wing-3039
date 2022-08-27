@@ -3,7 +3,7 @@ return `   <header id="header">
 <div id="top_row">
   <div class="colom1">
     <div class="comp_logo">
-      <a href=""
+      <a href="./index.html"
         ><img src="	https://www.1mg.com/images/tata_1mg_logo.svg" alt=""
       /></a>
     </div>

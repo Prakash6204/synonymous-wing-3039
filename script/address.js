@@ -40,11 +40,13 @@ function append(array)
 
 append(array,cont)
 
+
+document.getElementById("add").addEventListener("click",add)
 function add()
 {
     window.location.href="./checkout.html"
 }
-
+document.getElementById("next").addEventListener("click",next)
 function next()
 {
     window.location.href="./payment.html"
