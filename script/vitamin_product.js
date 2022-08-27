@@ -496,7 +496,4 @@ var fashionData = [
   // document.querySelector('#heart').style.display="none"
   // }
 
-  import navbar from "../components/navbar.js"
-document.getElementById("navbar").innerHTML=navbar()
-import flutter from "../components/flutter.js"
-document.getElementById("flutter").innerHTML=flutter()
+ 

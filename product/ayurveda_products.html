@@ -90,4 +90,10 @@
      <div id="flutter"></div>
   </body> 
 </html> 
-<script src="../script/ayurveda_products.js" type="module"></script>
+<script type="module">
+  import navbar from "../components/navbar.js"
+  document.getElementById("navbar").innerHTML=navbar()
+  import flutter from "../components/flutter.js"
+  document.getElementById("flutter").innerHTML=flutter()
+</script>
+<script src="../script/ayurveda_products.js" ></script>

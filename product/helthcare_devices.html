@@ -87,6 +87,12 @@
      -->
      <div id="flutter"></div>
   </body> 
-</html> 
-<script src="../script/helthcare_devices.js" type="module"></script>
+</html>
+<script type="module">
+  import navbar from "../components/navbar.js"
+document.getElementById("navbar").innerHTML=navbar()
+import flutter from "../components/flutter.js"
+document.getElementById("flutter").innerHTML=flutter()
+</script> 
+<script src="../script/helthcare_devices.js" ></script>
 
