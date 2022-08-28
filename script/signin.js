@@ -94,12 +94,16 @@ let form = document.querySelector(".form");
               {
                 
                 alert("Your sign in successfull!");
+                window.location.href="index.html"
                 
-                  window.location.href="index.html"
+              }
+              
+            
+              
                 
           
                 
-              }
+              
               
           
               
