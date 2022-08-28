@@ -143,6 +143,8 @@ a {
   width: 30px;
 }
 .input_box {
+
+  
   border: none;
   margin-left: 2px;
   background: #f1f4f6;
@@ -152,6 +154,12 @@ a {
   justify-content: space-between;
   align-items: center;
   color: rgb(176, 171, 171);
+}
+.input_box>input{
+  height: 33PX;
+  width:34rem;
+  border: none;
+  background-color: #f1f4f6 ;
 }
 .input_box > p {
   margin-left: 30px;
