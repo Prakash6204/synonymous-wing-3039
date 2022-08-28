@@ -75,12 +75,12 @@ resume = () => {
 //     window.location.href = "signup.html"
 // })
 let form = document.querySelector(".form");
-// let login = document.querySelector("#login");
+ let login = document.querySelector("#login");
     let userData = JSON.parse(localStorage.getItem("userData")) || [];
     console.log( userData)
 
     login.addEventListener("click",fun)
-    function fun(event){
+    function fun(){
 
     
         event.preventDefault();
@@ -98,7 +98,9 @@ let form = document.querySelector(".form");
                 
               }
               
-            
+            else{
+              alert("Wrong Credential")
+            }
               
                 
           

@@ -82,13 +82,25 @@ document
       flag = false;
     }
     if (flag == true) {
-      alert("payment Successfull");
-      window.location.href = "thank_you.html";
+     
+      alert("payment Successfull , Order Booked");
+      
+      window.location.href = "./index.html";
+       
+     
     }
   });
 
 document.querySelector("#mg_home").addEventListener("click", () => {
-  window.location.href = "./index.html";
+
+
+          alert("payment Successfull , Order Booked");
+      
+          window.location.href = "./index.html";
+      
+      
+       
+      
 });
 // document.querySelector("#need_help").addEventListener("click", () => {
 //   window.location.href = "NeedHelp.html";

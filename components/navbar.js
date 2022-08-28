@@ -32,9 +32,9 @@ return `   <header id="header">
     <div class="left_colom">
       <div class="login_singup_div">
         <div>
-          <a href=""><span>login</span></a>
+          <a href="./login.html"><span>login</span></a>
           <span>|</span>
-          <a href=""><span>sign up</span></a>
+          <a href="./signup.html"><span>sign up</span></a>
         </div>
       </div>
       
