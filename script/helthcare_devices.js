@@ -528,7 +528,7 @@ var fashionData = [
     s.push(elem);
     localStorage.setItem("thisProduct", JSON.stringify(elem));
     localStorage.setItem("allData", JSON.stringify(s));
-    window.location.href = "../cart/cart.html";
+    window.location.href = "./cart.html";
   }
   // let userdata=JSON.parse(localStorage.getItem('user'));
   // // console.log(userdata.username);

@@ -39,7 +39,7 @@ return `   <header id="header">
       </div>
       
     </div>
- <a href="../cart/cart.html" > <div class="nav_cart"></div></a>
+ <a href="./cart.html" > <div class="nav_cart"></div></a>
  need help?
   </div>
  
