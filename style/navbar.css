@@ -153,6 +153,12 @@ a {
   align-items: center;
   color: rgb(176, 171, 171);
 }
+.input_box>input{
+  height: 33PX;
+  width:34rem;
+  border: none;
+  background-color: #f1f4f6 ;
+}
 .input_box > p {
   margin-left: 30px;
 }
