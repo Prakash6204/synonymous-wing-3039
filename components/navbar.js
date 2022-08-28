@@ -32,15 +32,12 @@ return `   <header id="header">
     <div class="left_colom">
       <div class="login_singup_div">
         <div>
-<<<<<<< HEAD
-          <a href="./login.html"><span>login</span></a>
-          <span>|</span>
-          <a href="./signup.html"><span>sign up</span></a>
-=======
+
+        
           <a href="../login.html"><span>login</span></a>
           <span>|</span>
           <a href="../signup.html"><span>sign up</span></a>
->>>>>>> 374aac16539c6311abf110812f48a73e59673a81
+
         </div>
       </div>
       
